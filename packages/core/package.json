@@ -1,7 +1,7 @@
 {
   "name": "@global-library/core",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "author": "asaldanam",
   "license": "MIT"
 }

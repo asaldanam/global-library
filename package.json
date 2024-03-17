@@ -10,12 +10,14 @@
   "author": "asaldanam <asaldanam@gmail.com>",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "nohoist": [
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**"
+    ]
+  },
   "scripts": {
     "dev": "yarn dev:site",
     "dev:site": "yarn workspace @global-library/site run dev"
