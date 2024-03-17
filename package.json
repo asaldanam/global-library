@@ -11,11 +11,13 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "core/*",
-    "apps/*"
+    "packages/*"
+  ],
+  "nohoist": [
+    "packages/*"
   ],
   "scripts": {
-    "dev": "yarn dev:publisher",
-    "dev:publisher": "yarn workspace @global-library/publisher run dev"
+    "dev": "yarn dev:site",
+    "dev:site": "yarn workspace @global-library/site run dev"
   }
 }
