@@ -4,7 +4,7 @@
   "private": true,
   "engineStrict": true,
   "engines": {
-    "node": ">=20.11.0",
+    "node": ">=18.19.0",
     "yarn": ">=1.22.19"
   },
   "scripts": {
@@ -20,12 +20,12 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "next": "14.1.3",
+    "nft.storage": "^7.1.1",
     "react": "^18",
     "react-dom": "^18",
     "swr": "^2.2.5",
     "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7",
-    "nft.storage": "^7.1.1",
     "zod": "^3.22.4"
   },
   "devDependencies": {

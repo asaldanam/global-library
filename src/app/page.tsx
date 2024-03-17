@@ -1,4 +1,4 @@
-import PublishWizard from '@/features/PublishWizard';
+import PublishWizard from '@/components/features/PublishWizard';
 
 export default function Home() {
   return (
