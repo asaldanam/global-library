@@ -5,7 +5,7 @@
   "engineStrict": true,
   "engines": {
     "node": ">=18.19.0",
-    "yarn": ">=1.22.19"
+    "npm": ">=10.2.3"
   },
   "scripts": {
     "dev": "next dev",
