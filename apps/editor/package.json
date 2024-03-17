@@ -1,5 +1,5 @@
 {
-  "name": "@global-library/publisher",
+  "name": "@global-library/editor",
   "version": "0.1.0",
   "private": true,
   "engineStrict": true,

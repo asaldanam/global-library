@@ -11,6 +11,7 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
+    "core/*",
     "apps/*"
   ],
   "scripts": {
