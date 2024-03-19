@@ -2,9 +2,9 @@
 import { useEffect, useState } from 'react';
 import useSWRMutation from 'swr/mutation';
 
-import { Publication, Story, StoryPublisher, createStory } from '@/core';
 import { Button } from '@/components/ui/button';
 import { mutator } from '@/lib/mutator';
+import { Publication, Story, createStory } from '@global-library/core/index';
 
 const PublishWizard = () => {
   const { trigger, isMutating, data } = useSWRMutation('/api/publish', mutator);
