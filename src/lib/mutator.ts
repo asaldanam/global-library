@@ -1,5 +1,17 @@
-import { MutatorCallback } from 'swr';
+export function mutator(options?: RequestInit) {
+    return async (url: string, params: { arg: any }) => {
+        const fetchOptions = {
+            method: 'PUT',
+            ...(options || {}),
+            body: JSON.stringify(params.arg)
+        };
 
-export async function mutator(url: string, params: { arg: any }) {
-  return fetch(url, { method: 'PUT', body: JSON.stringify(params.arg) }).then((res) => res.json());
+        const response = await fetch(url, fetchOptions);
+
+        const data = await response.json();
+
+        if (!response.ok) throw new Error(data.message || response.statusText);
+
+        return data;
+    };
 }
