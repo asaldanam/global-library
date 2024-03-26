@@ -1,4 +1,4 @@
-import NotionImportWizard from '@/components/features/NotionImportWizard';
+import NotionImportWizard from '@/browser/components/features/NotionImportWizard';
 
 export default function Page() {
     return (

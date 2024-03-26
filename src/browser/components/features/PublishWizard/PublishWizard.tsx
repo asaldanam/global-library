@@ -3,9 +3,9 @@
 import { useEffect, useState } from 'react';
 import useSWRMutation from 'swr/mutation';
 
-import { Button } from '@/components/ui/button';
+import { Button } from '@/browser/components/ui/button';
 import { Publication, Story, createStory, createStoryExample } from '@/core';
-import { mutator } from '@/lib/mutator';
+import { mutator } from '@/browser/lib/mutator';
 
 const PublishWizard = () => {
     const { trigger, isMutating, data } = useSWRMutation('/api/publish', mutator());
@@ -28,7 +28,7 @@ const PublishWizard = () => {
         <>
             <div className="PublishWizard">
                 <div className="flex flex-col items-end p-7 text-xs">
-                    <pre className="text-xs bg-slate-50 p-3">
+                    <pre className="text-xs bg-slate-50 p-3 text-ellipsis max-w-full whitespace-break-spaces overflow-hidden">
                         <code>{JSON.stringify(story, null, 2)}</code>
                     </pre>
                     <div className="mt-4">

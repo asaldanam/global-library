@@ -1,9 +1,11 @@
-import PublishWizard from '@/components/features/PublishWizard';
+import PublishWizard from '@/browser/components/features/PublishWizard';
+import OnlyClient from '@/browser/utils/OnlyClient';
 
+/** /publish */
 export default function Page() {
     return (
-        <main className="flex flex-col items-center h-dvh">
+        <OnlyClient>
             <PublishWizard />
-        </main>
+        </OnlyClient>
     );
 }

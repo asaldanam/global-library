@@ -1,4 +1,4 @@
-import { mutator } from '@/lib/mutator';
+import { mutator } from '@/browser/lib/mutator';
 import { useNotionAuth } from './useNotionAuth';
 import useSWRMutation from 'swr/mutation';
 

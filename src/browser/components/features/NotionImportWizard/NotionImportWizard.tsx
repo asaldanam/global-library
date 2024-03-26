@@ -1,9 +1,9 @@
 'use client';
 
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { useNotion } from '@/hooks/useNotionPages';
+import { Button } from '@/browser/components/ui/button';
+import { Input } from '@/browser/components/ui/input';
+import { Label } from '@/browser/components/ui/label';
+import { useNotion } from '@/browser/hooks/useNotionPages';
 
 const NotionImportWizard = () => {
     const { auth, searchPages } = useNotion();

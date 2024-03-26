@@ -1,0 +1,4155 @@
+{
+    "object": "list",
+    "results": [
+        {
+            "object": "block",
+            "id": "491ef14a-8aa2-4cf7-9bd1-897a78b3207e",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T22:10:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "93860552-08fa-4977-a84a-474094fc0f83",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T22:10:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Ellen apenas podía contener las arcadas. El fuerte olor a sangre era lo de menos, pues la dantesca escabechina que se presentaba ante sus ojos era suficiente para descomponer el estómago.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Ellen apenas podía contener las arcadas. El fuerte olor a sangre era lo de menos, pues la dantesca escabechina que se presentaba ante sus ojos era suficiente para descomponer el estómago.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "42746cb4-76fc-46a0-927e-104dbba280ed",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—¿Qué? ¿Ahora te va a dar lástima?",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—¿Qué? ¿Ahora te va a dar lástima?",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —le preguntó Marez sin interrumpir el ritmo de golpes de su macheta, percatándose por el rabillo del ojo del rostro de horror de Ellen.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —le preguntó Marez sin interrumpir el ritmo de golpes de su macheta, percatándose por el rabillo del ojo del rostro de horror de Ellen.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "db354570-64c1-4d95-9902-e8923b668e7e",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Lo que la orco golpeaba era el pecho de una joven paladín, cuyo cuerpo yacía sin vida sobre la tabla de madera. La incauta muchacha se había adentrado el el castillo sola, y a pesar de haber luchado con la fiereza despachando a varios de los guardias, había terminado cayendo ante una descarga de escarcha de Ellen.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Lo que la orco golpeaba era el pecho de una joven paladín, cuyo cuerpo yacía sin vida sobre la tabla de madera. La incauta muchacha se había adentrado el el castillo sola, y a pesar de haber luchado con la fiereza despachando a varios de los guardias, había terminado cayendo ante una descarga de escarcha de Ellen.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "cee5529e-69f5-46f2-9e4d-a146784bc841",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—No no, es sólo que… Es la primera vez que veo tanta sangre",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—No no, es sólo que… Es la primera vez que veo tanta sangre",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": ". —Respondió la joven, borrando forzosamente la mueca de asco de su cara.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": ". —Respondió la joven, borrando forzosamente la mueca de asco de su cara.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "95135dd7-1286-4f1c-bb8a-80b088876000",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "La orco dejó clavada la macheta de carnicero sobre la mesa de madera y secó sus manos con un sucio trapo. Llevó ambas manos al pecho abierto del cadáver y tiró con fuerza. El brusco movimiento dejó su tórax abierto por el esternón y Ellen tuvo que esforzarse mucho por no vomitar.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "La orco dejó clavada la macheta de carnicero sobre la mesa de madera y secó sus manos con un sucio trapo. Llevó ambas manos al pecho abierto del cadáver y tiró con fuerza. El brusco movimiento dejó su tórax abierto por el esternón y Ellen tuvo que esforzarse mucho por no vomitar.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "d388d348-007a-40f7-9997-bd1e460569b3",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—No entiendo Marez… ¿Por qué me has hecho venir para ver… esto?",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—No entiendo Marez… ¿Por qué me has hecho venir para ver… esto?",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Pregúntó Ellen, sin poder evitar que su voz sonara temblorosa.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Pregúntó Ellen, sin poder evitar que su voz sonara temblorosa.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "9fe64539-6a04-4ab9-a605-fb7070f1cf6d",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Darbel me ha dicho que estás lista para dar tu siguiente paso",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Darbel me ha dicho que estás lista para dar tu siguiente paso",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Respondió la orco, mirado al cuello de Ellen, el cual portaba el colgante con la piedra roja que la hechicera le había entregado. —",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Respondió la orco, mirado al cuello de Ellen, el cual portaba el colgante con la piedra roja que la hechicera le había entregado. —",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Pronto entenderás nuestro auténtico cometido aquí.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Pronto entenderás nuestro auténtico cometido aquí.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "848b5a17-eaa5-493c-9652-65d0b0f5d3cd",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—¿Nuestro auténtico cometido?",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—¿Nuestro auténtico cometido?",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Preguntó la joven frunciendo el ceño, extrañada por el comentario.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Preguntó la joven frunciendo el ceño, extrañada por el comentario.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "b58cb5c5-bd70-4cec-a8c6-b36305f0fdf0",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Marez esgrimió una sonrió sardónica y durante un largo instante dejó la pregunta de Ellen en el aire. Al tiempo, introduzco su mano completanente en el interior del cadáver y rebuscó. Ellen tuvo de nuevo que contener una arcada mientras luchaba por no apartar la mirada y demostrar debilidad.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Marez esgrimió una sonrió sardónica y durante un largo instante dejó la pregunta de Ellen en el aire. Al tiempo, introduzco su mano completanente en el interior del cadáver y rebuscó. Ellen tuvo de nuevo que contener una arcada mientras luchaba por no apartar la mirada y demostrar debilidad.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "3b340eaf-7d60-4c11-baea-57a975337173",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Claro. ¿Acaso crees en los mismos ideales que tu padre, muchacha? ¿O que los idiotas que se pelean por el legado de tu rey?",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Claro. ¿Acaso crees en los mismos ideales que tu padre, muchacha? ¿O que los idiotas que se pelean por el legado de tu rey?",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Terminó respondiendo Marez mientras seguía con su tarea—. ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Terminó respondiendo Marez mientras seguía con su tarea—. ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Mira a tu alrededor, tanto la Alianza como los renegados nos tienen acorralados en las ruinas de esta cochambrosa ciudad.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Mira a tu alrededor, tanto la Alianza como los renegados nos tienen acorralados en las ruinas de esta cochambrosa ciudad.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "f25202f3-8d35-414f-8143-3138983db6b4",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Mientras Ellen no apartaba la mirada del rostro de la paladín. No era la primera que se había aventurado en los dominios de la Hermandad, ni sería la última. Aunque la milicia de Stromgarde no tenía la fuerza ni los recursos para desalojarles, los espías les habían advertido de que tanto la Alianza como la Horda habían puesto precio a las cabezas de algunos de los líderes. Era cuestión de tiempo que grupos de aventureros mejor pertrechados comenzaran a realizar enboscadas en sus dominios.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Mientras Ellen no apartaba la mirada del rostro de la paladín. No era la primera que se había aventurado en los dominios de la Hermandad, ni sería la última. Aunque la milicia de Stromgarde no tenía la fuerza ni los recursos para desalojarles, los espías les habían advertido de que tanto la Alianza como la Horda habían puesto precio a las cabezas de algunos de los líderes. Era cuestión de tiempo que grupos de aventureros mejor pertrechados comenzaran a realizar enboscadas en sus dominios.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "0a7f1ca6-c881-4f8a-962f-774f2b3322fe",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Entonces… ¿Que vamos a hacer?",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Entonces… ¿Que vamos a hacer?",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Preguntó Ellen, sin poder ocultar el desasosiego que le producía aquella situación—. ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Preguntó Ellen, sin poder ocultar el desasosiego que le producía aquella situación—. ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "¿Nos enfrentaremos a ellos? Ya perdimos una vez contra la Alianza.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "¿Nos enfrentaremos a ellos? Ya perdimos una vez contra la Alianza.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "4060de1c-98fb-476e-a908-9cdab9a4d193",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "La orco de nuevo no respondió inmediatamente a su pregunta. Con un brusco gesto extrajo del cuerpo el corazón de la desgraciada paladín. Aunque aquello a Ellen le provocó un escalofrío, en ese punto ya se encontraba prácticamente curada de espanto. Fue más bien la sorpresa y la curiosidad lo que su rostro debió mostrar, pues Marez dejó escapar una risa burlona.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "La orco de nuevo no respondió inmediatamente a su pregunta. Con un brusco gesto extrajo del cuerpo el corazón de la desgraciada paladín. Aunque aquello a Ellen le provocó un escalofrío, en ese punto ya se encontraba prácticamente curada de espanto. Fue más bien la sorpresa y la curiosidad lo que su rostro debió mostrar, pues Marez dejó escapar una risa burlona.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "ff063bd3-208e-41a3-9f83-0f2bbc6473ad",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Todo a su tiempo muchacha",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Todo a su tiempo muchacha",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Respondió Marez mientras inspeccionaba el corazón recién arrancado del cuerpo—. ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Respondió Marez mientras inspeccionaba el corazón recién arrancado del cuerpo—. ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Todo a su debido tiempo…",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Todo a su debido tiempo…",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "8b7195f2-5d9a-47c3-96e8-6de824e50f8d",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "La orco asintió satisfecha, como un carnicero que acababa de despojar de una pieza de caza su mejor parte. Se dirigió hacia Ellen con el órgano humano en sus manos y se lo tendió para que lo cogiera.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "La orco asintió satisfecha, como un carnicero que acababa de despojar de una pieza de caza su mejor parte. Se dirigió hacia Ellen con el órgano humano en sus manos y se lo tendió para que lo cogiera.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "5b473ff8-0fe0-40d6-bc34-4b6a2f24136d",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Por ahora, cóbrate tu recompensa. Te la has ganado.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Por ahora, cóbrate tu recompensa. Te la has ganado.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "e5e54a58-249b-483b-a0b6-b29790c83b13",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "2589e144-75d3-4185-9e68-b2cb4b643784",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "divider",
+            "divider": {}
+        },
+        {
+            "object": "block",
+            "id": "74afcadd-7f82-4a4b-b8ec-85cd70057841",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "38e1a285-e4db-4ea3-b990-13eeb08afdfb",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "La luz de las velas proyectaba extrañas sombras danzarinas sobre las paredes de la cripta a medida que los conjuradores desplazaban el aire al entrar en la sala. Era la primera vez que Ellen era invitada a aquella extraña reunión, es más, ni siquiera conocía de la existencia de aquel conclave. El mensaje que encontró en su cuarto era misterioso pero claro:",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "La luz de las velas proyectaba extrañas sombras danzarinas sobre las paredes de la cripta a medida que los conjuradores desplazaban el aire al entrar en la sala. Era la primera vez que Ellen era invitada a aquella extraña reunión, es más, ni siquiera conocía de la existencia de aquel conclave. El mensaje que encontró en su cuarto era misterioso pero claro:",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "eef189b3-3b4c-46b4-9216-fda5f7be5a7b",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "“A media noche da la vuelta al reloj. Cuando las arenas hayan caído, toma tu capa y baja a las mazmorras. Trae tus pertenencias y lo que Marez te entregó”",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "“A media noche da la vuelta al reloj. Cuando las arenas hayan caído, toma tu capa y baja a las mazmorras. Trae tus pertenencias y lo que Marez te entregó”",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": ".",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": ".",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "24d18c82-6cfa-4fbd-9539-a3c96fd47c15",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Ellen se percató de que algunos de los invitados llevaban el reloj aun en su mano, y cada uno tenía un tamaño diferente. Parece que Darbel había procurado que los invitados no coincidieran en su llegada.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Ellen se percató de que algunos de los invitados llevaban el reloj aun en su mano, y cada uno tenía un tamaño diferente. Parece que Darbel había procurado que los invitados no coincidieran en su llegada.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "e67860ee-4650-4351-bddc-cc5e62d108a8",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Metros bajo tierra se tornaba imposible perturbar el sueño de quienes dormían en los aposentos, sin embargo todos los presentes hablaban en voz baja. Algunos de los convocados aparecieron encapuchados ocultando su rostro en sombras, parecía que no todos los que estaban allí estaban dispuestos a exponer su identidad.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Metros bajo tierra se tornaba imposible perturbar el sueño de quienes dormían en los aposentos, sin embargo todos los presentes hablaban en voz baja. Algunos de los convocados aparecieron encapuchados ocultando su rostro en sombras, parecía que no todos los que estaban allí estaban dispuestos a exponer su identidad.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "8f991078-c499-4469-9f90-89055b0e9961",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Por un momento Ellen se sintió inquieta al pensar sobre qué pensaría su padre si supiera que se encontraba en aquella reunión clandestina rodeada de gente extraña.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Por un momento Ellen se sintió inquieta al pensar sobre qué pensaría su padre si supiera que se encontraba en aquella reunión clandestina rodeada de gente extraña.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "05debcd1-ecb3-4d82-ae61-a720ebfae137",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Caballeros y damas del Despertar.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Caballeros y damas del Despertar.",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Comenzó a decir Darbel, acallando tanto los susurros de los presentes como los pensamientos de la joven. Los presentes comenzaron a rodearla, dejándola a ella dejándola en un lugar prominente dentro del círculo—. ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Comenzó a decir Darbel, acallando tanto los susurros de los presentes como los pensamientos de la joven. Los presentes comenzaron a rodearla, dejándola a ella dejándola en un lugar prominente dentro del círculo—. ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Os he convocado aquí hoy con la misión de hacernos un poco más fuertes, un poco más grandes. Hasta ahora la ignorancia de nuestros enemigos juega a nuestro favor, pero no será por siempre.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Os he convocado aquí hoy con la misión de hacernos un poco más fuertes, un poco más grandes. Hasta ahora la ignorancia de nuestros enemigos juega a nuestro favor, pero no será por siempre.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "925a4ee2-f2c7-4d6a-a3d0-5c64952ac786",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Darbel se paseaba por el interior del círculo lentamente, mirando a cada uno de los invitados, como si aquellas palabras fueran un mensaje personal para cada uno de los convocados.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Darbel se paseaba por el interior del círculo lentamente, mirando a cada uno de los invitados, como si aquellas palabras fueran un mensaje personal para cada uno de los convocados.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "efb77871-7f04-497f-8e2b-bcd082da7b83",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Un dia lo descubrirán, sabrán que su regreso es inevitable. Sabrán que algunos nos estamos preparando para ello y tratarán de usar su fuerza contra nosotros. Sin embargo eso último no sucederá.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Un dia lo descubrirán, sabrán que su regreso es inevitable. Sabrán que algunos nos estamos preparando para ello y tratarán de usar su fuerza contra nosotros. Sin embargo eso último no sucederá.",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Dijo Darbel, realizando una pausa durante un largo instante—. ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Dijo Darbel, realizando una pausa durante un largo instante—. ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "No, eso no sucederá. No sucerá porque el dia del Regreso, seremos tantos y tan fuertes que les será imposible impedirlo. Hoy seremos uno más.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "No, eso no sucederá. No sucerá porque el dia del Regreso, seremos tantos y tan fuertes que les será imposible impedirlo. Hoy seremos uno más.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "e326ce43-7958-4b67-ac8e-e9a6495188cd",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "La conjuradora se paró frente a Ellen. Los ojos violáceos de Darbel parecían arder, como si aquel discurso hubiera exaltado un furor combatibo en su alma que nunca había visto en ella. De alguna forma y sin entenderlo del todo Ellen se había contagiada de aquel furor.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "La conjuradora se paró frente a Ellen. Los ojos violáceos de Darbel parecían arder, como si aquel discurso hubiera exaltado un furor combatibo en su alma que nunca había visto en ella. De alguna forma y sin entenderlo del todo Ellen se había contagiada de aquel furor.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "5407480e-98b2-45d2-9534-ccb8ac1dda3d",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Parecía que al contrario que los líderes de la Hermandad, Darbel tenía un plan y aunque Ellen no lo entendía del todo, su determinación en llevarlo a cabo le inspiraba a seguirla.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Parecía que al contrario que los líderes de la Hermandad, Darbel tenía un plan y aunque Ellen no lo entendía del todo, su determinación en llevarlo a cabo le inspiraba a seguirla.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "6e2c7109-4381-4773-9da0-a9fd3fdc1db1",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Adelante",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Adelante",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —le dijo Darbel, invitándola a situarse en el centro con un gesto de su mano—. ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —le dijo Darbel, invitándola a situarse en el centro con un gesto de su mano—. ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Hazlo como te he enseñado.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Hazlo como te he enseñado.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "010cf6b8-4026-4f2a-ba06-05e17b7785a8",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Ellen caminó timidamente al centro del círculo. A pesar de que la penumbra no le dejaba verlas, sentía las miradas de los convocados clavadas en ella. Se percató de que bajo sus pies se habían dibujado con tiza varias formas y no tardó en reconocerlas: se trataba de un círculo de invocación.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Ellen caminó timidamente al centro del círculo. A pesar de que la penumbra no le dejaba verlas, sentía las miradas de los convocados clavadas en ella. Se percató de que bajo sus pies se habían dibujado con tiza varias formas y no tardó en reconocerlas: se trataba de un círculo de invocación.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "7d29e0f2-cd43-41e8-80dd-885b8e0d9e39",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "“Capítulo 3, página 32”",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "“Capítulo 3, página 32”",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": ". —Masculló para si misma, mientras se arrodillaba y visualizaba en su mente exactamente el folio del grimorio donde lo había visto. No obstante, tras inspeccionarlo con detenimiento se percató de que faltaban algunos detalles importantes.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": ". —Masculló para si misma, mientras se arrodillaba y visualizaba en su mente exactamente el folio del grimorio donde lo había visto. No obstante, tras inspeccionarlo con detenimiento se percató de que faltaban algunos detalles importantes.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "2bb414fc-1b04-47c7-96dc-78ef69e643e5",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Darbel, creo que aquí fal…",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Darbel, creo que aquí fal…",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Comenzó a decir al tiempo que se incorporaba.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Comenzó a decir al tiempo que se incorporaba.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "b64a5492-821a-4f00-a22a-a5e451dadbae",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Todo tuyo",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Todo tuyo",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Le interrumpió la conjuradora, mientras le tendía un trozo de tiza—. ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Le interrumpió la conjuradora, mientras le tendía un trozo de tiza—. ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Y dinos en voz alta cómo lo completarías.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Y dinos en voz alta cómo lo completarías.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "c5fc4002-5cb0-4f24-8da5-6e2b9a59aca5",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Ellen devolvió la mirada a los ojos a Darbel. Aquello iba a ser un exámen, o al menos lo mas parecido a uno. Por suerte para ella años de estudio en Dalaran la habían entrenado bastante bien. ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Ellen devolvió la mirada a los ojos a Darbel. Aquello iba a ser un exámen, o al menos lo mas parecido a uno. Por suerte para ella años de estudio en Dalaran la habían entrenado bastante bien. ",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "04f7e74e-5212-46d5-a24a-bd9a99e27154",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Está bién.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Está bién.",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Dijo, mientras tomaba la tiza entre sus dedos y volvía a agacharse—. ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Dijo, mientras tomaba la tiza entre sus dedos y volvía a agacharse—. ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "En el borde exterior falta una runa, “Kiel”. ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "En el borde exterior falta una runa, “Kiel”. ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Escribió el símbolo en el lugar correspondiente—.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Escribió el símbolo en el lugar correspondiente—.",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " Aquí, en el interior falta otra… “Amanare”. Y aquí… hay varias conexiones incorrectas.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " Aquí, en el interior falta otra… “Amanare”. Y aquí… hay varias conexiones incorrectas.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "a9f30412-8493-4dd1-87cc-b71d214b6c3c",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Ellen borró líneas y dibujó otras hasta que el círculo quedaba exactamente igual que en su memoria.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Ellen borró líneas y dibujó otras hasta que el círculo quedaba exactamente igual que en su memoria.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "9b99cbd2-9217-416e-b9d3-922604094ba7",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "A pesar de que tenía bastante confianza en haberlo reproducido bien, sus manos temblaban. Darbel le había transmitido en incontables ocasiones cuanta sutileza y perfeccionismo requería aquella magia tan inestable. Tenía muy presente que cualquier error por nimio que fuera podía acarrear consecuencias impredecibles.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "A pesar de que tenía bastante confianza en haberlo reproducido bien, sus manos temblaban. Darbel le había transmitido en incontables ocasiones cuanta sutileza y perfeccionismo requería aquella magia tan inestable. Tenía muy presente que cualquier error por nimio que fuera podía acarrear consecuencias impredecibles.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "947b1ad9-1bee-46ca-b0b9-07e9f11b8d05",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Creo que ya está…",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Creo que ya está…",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Dijo, irguiéndose de nuevo.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Dijo, irguiéndose de nuevo.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "8bbbe5ce-2222-4ee9-8cd8-abc1246d4d8e",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—¿Crees?",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—¿Crees?",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Preguntó Darbel, que la miraba con los brazos cruzados.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Preguntó Darbel, que la miraba con los brazos cruzados.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "2a79fc08-cd60-4026-9c62-8ee458cae1d5",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—No, estoy segura",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—No, estoy segura",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Se apresuró a responder, tratando de parecer segura de sí misma.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Se apresuró a responder, tratando de parecer segura de sí misma.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "49993254-89d3-477c-ada8-4a246d5573d5",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Ellen vio que su maestra comenzó a caminar entorno al círculo, estudiándolo con detenimiento. Estaba segura de que su trabajo era correcto, pero sentía las miradas de todos sobre ella y le provocaba mucha presión. Sus manos no podían dejar de temblar.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Ellen vio que su maestra comenzó a caminar entorno al círculo, estudiándolo con detenimiento. Estaba segura de que su trabajo era correcto, pero sentía las miradas de todos sobre ella y le provocaba mucha presión. Sus manos no podían dejar de temblar.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "b089cc68-858e-4f51-ab21-f67b85a38ee9",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Bien, es correcto. Sigamos",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Bien, es correcto. Sigamos",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Dijo Darbel. Ellen se acercó a su maestra y abrió la bolsa, dispuesta a entregarle los componentes.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Dijo Darbel. Ellen se acercó a su maestra y abrió la bolsa, dispuesta a entregarle los componentes.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "6335190e-a3b7-4d87-a700-db46289c2006",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—No",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—No",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Le interrumpió Darbel—. ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Le interrumpió Darbel—. ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Lo vas a hacer tú al completo.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Lo vas a hacer tú al completo.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "6feee1c2-6453-453a-8f0b-35a4784f3d01",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Su mirada debió reflejar el pánico y la sorpresa que sentía, pues la conjuradora dibujó una sonrisa burlona en su rostro.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Su mirada debió reflejar el pánico y la sorpresa que sentía, pues la conjuradora dibujó una sonrisa burlona en su rostro.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "a4689ee3-331c-4f09-ac7f-b817dd3a0ef9",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Tranquila. Lo harás bien.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Tranquila. Lo harás bien.",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Se apresuró a tranquilizarla.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Se apresuró a tranquilizarla.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "0b3c1642-5415-41e6-9179-4f9c71aca639",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Ellen asintió, recordando las palabras que Darbel le dijo una vez: ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Ellen asintió, recordando las palabras que Darbel le dijo una vez: ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "“Un ritual de invocación no era muy diferente de una receta de cocina, salvo por el hecho de que el resultado podía comerte a tí en vez de tú a él.”",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "“Un ritual de invocación no era muy diferente de una receta de cocina, salvo por el hecho de que el resultado podía comerte a tí en vez de tú a él.”",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " ",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "6fdf9030-cf70-4687-b7c1-674fa9574239",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Sin embargo, rememorar aquel comentario jocoso no le ayudó a calmar los nervios.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Sin embargo, rememorar aquel comentario jocoso no le ayudó a calmar los nervios.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "b2756e8f-23e6-4e59-bf7d-58f701cb13bc",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Por favor, di en alto para que todos te escuchen qué elementos son necesarios en un ritual. Y cómo lo vas a realizar.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Por favor, di en alto para que todos te escuchen qué elementos son necesarios en un ritual. Y cómo lo vas a realizar.",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Le solicitó Darbel.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Le solicitó Darbel.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "dfd96ccd-7624-4657-a71a-093a9419f97b",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—El círculo, los refuerzos, el reactivo, el catalizador y la llamada",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—El círculo, los refuerzos, el reactivo, el catalizador y la llamada",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Respondió Ellen de memoria, casi de forma automática.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Respondió Ellen de memoria, casi de forma automática.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "160e732a-f3a6-4924-bbeb-f156a5b5b536",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Bien, comienza.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Bien, comienza.",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Le solicitó Darbel.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Le solicitó Darbel.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "9fb2a3af-90cc-4760-a8fb-0620463dd9aa",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Bien… Allá voy.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Bien… Allá voy.",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Dijo a Darbel, tratando de transmitir seguridad—. ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Dijo a Darbel, tratando de transmitir seguridad—. ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Dado que tenemos el círculo lo siguiente que tenemos que hacer es crear los refuerzos, así la entidad quedará confinada en él y no podrá escapar una vez invocada.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Dado que tenemos el círculo lo siguiente que tenemos que hacer es crear los refuerzos, así la entidad quedará confinada en él y no podrá escapar una vez invocada.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "7dc9e0f0-7a5a-4966-a1d9-259d3299557c",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Ellen cogió una a una cuatro velas y las dispuso cuidadosamente en puntos equidistantes del círculo, cerciorándose desde varios angulos que formaban un cuadrado perfecto.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Ellen cogió una a una cuatro velas y las dispuso cuidadosamente en puntos equidistantes del círculo, cerciorándose desde varios angulos que formaban un cuadrado perfecto.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "e2231464-7891-49ce-9e85-8d319a5dd5fb",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Para este caso bastará con un refuerzo por incienso. Debemos quemar un poco de gromsanguina sobre las velas y esperar a que su humo sea consistente, fino y definido.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Para este caso bastará con un refuerzo por incienso. Debemos quemar un poco de gromsanguina sobre las velas y esperar a que su humo sea consistente, fino y definido.",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Indicó, mientras sacaba un pequeño manojo de hierbas de su bolsa—. ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Indicó, mientras sacaba un pequeño manojo de hierbas de su bolsa—. ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Quemar poca podría producir un humo escaso o dejaría de producirlo demasiado rápido. Quemar más de lo debido podría producir demasiado, enturbiar el aire y ahuyentar a la entidad. Si el refuerzo no estuviera bien realizado, la entidad podría escapar de control.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Quemar poca podría producir un humo escaso o dejaría de producirlo demasiado rápido. Quemar más de lo debido podría producir demasiado, enturbiar el aire y ahuyentar a la entidad. Si el refuerzo no estuviera bien realizado, la entidad podría escapar de control.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "cb877edd-e992-4c3d-b806-04c79432bf1e",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Terminando de recitar el primer paso Ellen no pudo evitar mirar a su maestra, esperando algún gesto de aprobación para continuar. Sabía lo importante y delicado que era este punto, pues garantizaba la seguridad de todos los presentes.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Terminando de recitar el primer paso Ellen no pudo evitar mirar a su maestra, esperando algún gesto de aprobación para continuar. Sabía lo importante y delicado que era este punto, pues garantizaba la seguridad de todos los presentes.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "7bae2fcd-d93c-4977-b121-a4fad9c22eb6",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Prosigue.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Prosigue.",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Le pidió Darbel tras comprobar el resultado.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Le pidió Darbel tras comprobar el resultado.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "1e513f9b-e50e-4e1f-82d2-4d47d6af9e5e",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Ellen rebuscó en su bolsa hasta dar con un frasco lleno de cenizas provinientes de incinerar el corazón de la paladín que Marez había extraído. La orco le había indicado que podía prepararlo de esa forma mucho más conveniente y no afectaría al resultado.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Ellen rebuscó en su bolsa hasta dar con un frasco lleno de cenizas provinientes de incinerar el corazón de la paladín que Marez había extraído. La orco le había indicado que podía prepararlo de esa forma mucho más conveniente y no afectaría al resultado.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "1489cc2d-deee-482c-b70b-f49a4ff557fd",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—En segundo lugar añadiré uno de los reactivos. Un corazón puro y libre de pecados, pues será el regalo con el que atraeremos a la entidad.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—En segundo lugar añadiré uno de los reactivos. Un corazón puro y libre de pecados, pues será el regalo con el que atraeremos a la entidad.",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Dijo, tras lo cual comenzó a esparcir con la mayor uniformidad posible las cenizas.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Dijo, tras lo cual comenzó a esparcir con la mayor uniformidad posible las cenizas.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "51ee4f4f-c56c-407e-b7bc-61aa71cd9a11",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Por el rabillo del ojo Ellen comprobó la reacción de su maestra. Prestaba atención a todos sus movimientos y a la disposición correcta de los elementos.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Por el rabillo del ojo Ellen comprobó la reacción de su maestra. Prestaba atención a todos sus movimientos y a la disposición correcta de los elementos.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "c192ebbe-1bc8-48c1-ac15-f6e002db552a",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—El catalizador",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—El catalizador",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Continuó diciendo, mientras se quitaba el colgante que tenía en su cuello, cuya piedra roja reflejaba sobre su brillante superficie el débil destello de las velas—. P",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Continuó diciendo, mientras se quitaba el colgante que tenía en su cuello, cuya piedra roja reflejaba sobre su brillante superficie el débil destello de las velas—. P",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "iedra sangrita extraída de las profundidades de la tierra, donde moran y susurran seres ignotos. Será donde almacenaremos las energías necesarias para el ritual.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "iedra sangrita extraída de las profundidades de la tierra, donde moran y susurran seres ignotos. Será donde almacenaremos las energías necesarias para el ritual.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "ca0d83da-034f-485b-979b-39bb8ea30688",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Con todos los elementos dispuestos Ellen se percató de que le faltaba algo, lo más importante. Sin ello no podría finalizar el ritual. Por unos instantes un sentimiento de fracaso le invadió al imaginar la cara de decepción de Darbel.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Con todos los elementos dispuestos Ellen se percató de que le faltaba algo, lo más importante. Sin ello no podría finalizar el ritual. Por unos instantes un sentimiento de fracaso le invadió al imaginar la cara de decepción de Darbel.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "d839277d-812a-417f-8ec0-089396c29d1f",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Toma",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Toma",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Dijo Darbel, quien se encontraba a sus espaldas. Su maestra le estaba tendiendo un pequeño fragmento de papiro plegado—. ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Dijo Darbel, quien se encontraba a sus espaldas. Su maestra le estaba tendiendo un pequeño fragmento de papiro plegado—. ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "No tenías porqué conocerlo.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "No tenías porqué conocerlo.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "b80e1987-e2a9-4ab0-b2a4-f57d648f58ff",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Ellen se giró y abrió el papel, leyendo para sí su contenido. Respiró aliviada al comprobar que era exactamente lo que necesitaba.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Ellen se giró y abrió el papel, leyendo para sí su contenido. Respiró aliviada al comprobar que era exactamente lo que necesitaba.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "6bc4f28b-9dbe-49ef-876a-af1144eb4e77",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Su nombre",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Su nombre",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": " —Dijo Ellen, alzando el pergamino abierto para que todos pudieran leerlo—. ",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": " —Dijo Ellen, alzando el pergamino abierto para que todos pudieran leerlo—. ",
+                        "href": null
+                    },
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Nos permitirá llamar al ser.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": true,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Nos permitirá llamar al ser.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "08f0fa74-9f5b-445e-b0b9-675a682459cf",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Todo estaba preparado y sólo quedaba realizar la llamada. Ellen miró a su maestra esperando su consentimiento. Darbel recorrió todos los elementos del círculo con la mirada y dio unos pasos atrás para situarse en el círculo con los demás.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Todo estaba preparado y sólo quedaba realizar la llamada. Ellen miró a su maestra esperando su consentimiento. Darbel recorrió todos los elementos del círculo con la mirada y dio unos pasos atrás para situarse en el círculo con los demás.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "cbda4a7a-286c-4621-b7c7-87fdb5a99cec",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Adelante. —Dijo Darbel, dándole su permiso para continuar.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Adelante. —Dijo Darbel, dándole su permiso para continuar.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "c4543d05-3bd1-47ab-aea8-1721e7c439a4",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Ellen inspiró hondo para calmarse. Era la primera vez que ponía en práctica todo lo aprendido en aquel malogrado libro que Darbel le había prestado. Sentía miedo, pues durante su estancia en Dalaran los archimagos más ancianos del Kirin Tor advertían constante a los alumnos en contra de jugar con lo prohibido, pues contaban no pocas historias sobre arcanistas ávidos de poder que habían sido devorados por seres del Vacío Abisal.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Ellen inspiró hondo para calmarse. Era la primera vez que ponía en práctica todo lo aprendido en aquel malogrado libro que Darbel le había prestado. Sentía miedo, pues durante su estancia en Dalaran los archimagos más ancianos del Kirin Tor advertían constante a los alumnos en contra de jugar con lo prohibido, pues contaban no pocas historias sobre arcanistas ávidos de poder que habían sido devorados por seres del Vacío Abisal.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "61e6bef0-5a8a-4a5d-acc5-39bfcd5933ee",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Ella nunca había sido una alumna rebelde y jamás hubiera tenido ni la más remota curiosidad por aquello. Aquellas advertencias, a veces amenazas veladas, hubieran sido motivo suficiente para impedir que hiciera algo como lo que estaba a punto de hacer.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Ella nunca había sido una alumna rebelde y jamás hubiera tenido ni la más remota curiosidad por aquello. Aquellas advertencias, a veces amenazas veladas, hubieran sido motivo suficiente para impedir que hiciera algo como lo que estaba a punto de hacer.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "fd01a329-ea21-47dd-826f-dd0e9e80915a",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Sin embargo, a pesar de todo aquello, a pesar de los esfuerzos de sus antiguos maestros por evitarlo, lo iba a hacer.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Sin embargo, a pesar de todo aquello, a pesar de los esfuerzos de sus antiguos maestros por evitarlo, lo iba a hacer.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "639fbf55-7093-4a2a-a39f-54a6bdfc12a0",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Lo haría porque esa panda de inútiles vegestorios de mente cerrada no pudieron evitar que su propia nación no sucubiera a la Legión. Dalaran hoy era un cráter en medio de la nada, y ninguna de sus prohibiciones sería relevante nunca más.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Lo haría porque esa panda de inútiles vegestorios de mente cerrada no pudieron evitar que su propia nación no sucubiera a la Legión. Dalaran hoy era un cráter en medio de la nada, y ninguna de sus prohibiciones sería relevante nunca más.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "21a904db-3a04-45fc-a099-0235908acea8",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Lo haría porque era la única forma de ser parte de algo más grande que una panda de decadentes bandidos que habían sido incapaces de recuperar sus tierras en más de veinte años.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Lo haría porque era la única forma de ser parte de algo más grande que una panda de decadentes bandidos que habían sido incapaces de recuperar sus tierras en más de veinte años.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "8dc80ad4-9935-4174-bb44-ff5d6baeecb1",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Lo haría por no decepcionar a Darbel, a quien había llegado a considerar casi como la hermana mayor que nunca tuvo, pues ella era la única que la apoyaba, la ayuda y estaba junto a ella.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Lo haría por no decepcionar a Darbel, a quien había llegado a considerar casi como la hermana mayor que nunca tuvo, pues ella era la única que la apoyaba, la ayuda y estaba junto a ella.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "e7ab2674-fc4a-48aa-830a-61572cd5222d",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Lo haría porque sería lo único interesante que había hecho hasta ahora, más allá de estudiar, estudiar y estudiar.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Lo haría porque sería lo único interesante que había hecho hasta ahora, más allá de estudiar, estudiar y estudiar.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "d0c84b2f-57a7-4c63-bd4d-8c9ce964d0aa",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Lo haría simplemente porque podía, y porque quería.",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Lo haría simplemente porque podía, y porque quería.",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "bd0c8ab1-e3b6-4f7b-8c7b-d9a159dcf24c",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "Todos aquellos pensamientos vinieron en su mente como un arroyo que crece hasta ser un torrente para terminar inundándolo todo. Ellen desenvainó su daga del cinto y colocó el filo sobre la palma de su mano, inspiró profundamente y dejando escapar toda aquella rabia contenida alzó su voz y dijo las palabras:",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "Todos aquellos pensamientos vinieron en su mente como un arroyo que crece hasta ser un torrente para terminar inundándolo todo. Ellen desenvainó su daga del cinto y colocó el filo sobre la palma de su mano, inspiró profundamente y dejando escapar toda aquella rabia contenida alzó su voz y dijo las palabras:",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "8de02c32-43e0-492d-a7dc-8215f59b5fe7",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [
+                    {
+                        "type": "text",
+                        "text": {
+                            "content": "—Ered'nash ila mornu nakuun… Ered'nash ban man'ari… Ered'nash ban… ¡ANGVINA!",
+                            "link": null
+                        },
+                        "annotations": {
+                            "bold": false,
+                            "italic": false,
+                            "strikethrough": false,
+                            "underline": false,
+                            "code": false,
+                            "color": "default"
+                        },
+                        "plain_text": "—Ered'nash ila mornu nakuun… Ered'nash ban man'ari… Ered'nash ban… ¡ANGVINA!",
+                        "href": null
+                    }
+                ],
+                "color": "default"
+            }
+        },
+        {
+            "object": "block",
+            "id": "5ba8623f-328d-4e8d-aaac-783b12671407",
+            "parent": {
+                "type": "page_id",
+                "page_id": "fb7b77e2-4c95-48c0-b3e7-a78f29461a7c"
+            },
+            "created_time": "2023-09-03T09:25:00.000Z",
+            "last_edited_time": "2023-09-03T09:25:00.000Z",
+            "created_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "last_edited_by": {
+                "object": "user",
+                "id": "69098fcf-7ee0-48f0-a149-6a8badeb7e16"
+            },
+            "has_children": false,
+            "archived": false,
+            "type": "paragraph",
+            "paragraph": {
+                "rich_text": [],
+                "color": "default"
+            }
+        }
+    ],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "block",
+    "block": {},
+    "request_id": "c187c736-9282-416f-a683-5a4ede05353c"
+}

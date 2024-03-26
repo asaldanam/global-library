@@ -1,4 +1,15 @@
-import { createStory } from '../..';
+import { Block } from '@/core/modules/story/domain/models/Story/Block';
+import { createStory } from '../../core/modules/story';
+import blocks_id from '@/mocks/notion/blocks_id.json';
+
+const blocks = blocks_id.results
+    .map((block) => ({
+        type: 'paragraph',
+        data: {
+            text: block.paragraph?.rich_text.map((t) => t.text.content).join('')
+        }
+    }))
+    .filter((b) => b.data.text);
 
 export const createStoryExample = () =>
     createStory({
@@ -20,12 +31,7 @@ export const createStoryExample = () =>
                 title: 'Capítulo 1',
                 pages: [
                     // example page
-                    {
-                        blocks: [
-                            // Example block
-                            { type: 'paragraph', data: { text: 'Hello, world!' } }
-                        ]
-                    }
+                    { blocks: blocks as Block[] }
                 ]
             }
         ]
