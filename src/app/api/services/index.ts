@@ -1,3 +1,3 @@
-import { NftStoragePublishRepository, StoryPublisher } from '@global-library/core/index';
+import { NftStoragePublishRepository, StoryPublisher } from '@/core';
 
 export const storyPublisher = new StoryPublisher(new NftStoragePublishRepository());

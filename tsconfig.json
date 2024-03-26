@@ -25,9 +25,6 @@
         "paths": {
             "@/*": [
                 "./src/*"
-            ],
-            "@global-library/core/*": [
-                "./core/*"
             ]
         }
     },

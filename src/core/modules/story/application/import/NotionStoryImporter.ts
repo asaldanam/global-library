@@ -3,11 +3,7 @@ import { createStory } from '../../domain/models/Story';
 import { PublishRepository } from '../../domain/reposity/PublishRepository';
 
 export class NotionStoryImporter {
-  constructor(public readonly repository: PublishRepository) {}
+    constructor(public readonly repository: PublishRepository) {}
 
-  async publish(data: any): Promise<Publication> {
-    const story = createStory(data);
-    const publication = this.repository.publish(story);
-    return publication;
-  }
+    async import(data: any) {}
 }

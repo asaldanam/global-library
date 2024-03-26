@@ -1,10 +1,10 @@
 'use client';
+
 import { useEffect, useState } from 'react';
 import useSWRMutation from 'swr/mutation';
 
 import { Button } from '@/components/ui/button';
-
-import { Publication, Story, createStory } from '@global-library/core/index';
+import { Publication, Story, createStory } from '@/core';
 import { mutator } from '@/lib/mutator';
 
 const PublishWizard = () => {
@@ -20,10 +20,20 @@ const PublishWizard = () => {
 
     useEffect(() => {
         const newStory = createStory({
+            content: [{ title: 'Title', pages: [] }],
+            cover: 'https://source.unsplash.com/random/800x600',
             id: crypto.randomUUID(),
-            content: 'lorem ipsum dolor sit amet'
+            title: 'Title',
+            meta: {
+                author: {
+                    avatar: 'https://source.unsplash.com/random/100x100',
+                    name: 'Author',
+                    email: ''
+                },
+                createdAt: new Date().toISOString(),
+                version: 1
+            }
         });
-
         setStory(newStory);
     }, []);
 
