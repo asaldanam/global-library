@@ -3,4 +3,4 @@ export * from './domain/models/Publication';
 
 export * from './application/publish/StoryPublisher';
 
-export * from './infrastructure/NftStoragePublishRepository';
+export * from './infrastructure/repository/NftStoragePublishRepository';

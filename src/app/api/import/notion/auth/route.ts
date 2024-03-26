@@ -4,7 +4,6 @@ import { NextRequest, NextResponse } from 'next/server';
 export async function POST(request: NextRequest) {
     try {
         const { code } = await request.json();
-        console.log('/api/import/notion/auth', code);
 
         const username = process.env.NOTION_OAUTH_CLIENT_ID;
         const password = process.env.NOTION_OAUTH_CLIENT_SECRET;

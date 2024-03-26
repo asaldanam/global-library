@@ -1,11 +1,46 @@
-import NotionImportWizard from '@/components/features/NotionImportWizard';
-import PublishWizard from '@/components/features/PublishWizard';
+import OnlyClient from '@/components/utils/OnlyClient';
+import Link from 'next/link';
 
-export default function Home() {
-  return (
-    <main className="flex flex-col items-center h-dvh">
-      <PublishWizard />
-      <NotionImportWizard />
-    </main>
-  );
+export default function Page() {
+    return (
+        <main>
+            <OnlyClient>
+                <ul className="px-4">
+                    <li className="mt-4">
+                        <div>
+                            <div>Escribe tu historia</div>
+                            <Link
+                                className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                                href="/write"
+                            >
+                                /write
+                            </Link>
+                        </div>
+                    </li>
+                    <li className="mt-4">
+                        <div>
+                            <div>Publica tu historia para siempre en IPFS</div>
+                            <Link
+                                className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                                href="/publish"
+                            >
+                                /publish
+                            </Link>
+                        </div>
+                    </li>
+                    <li className="mt-4">
+                        <div>
+                            <div>Importa tu historia desde Notion</div>
+                            <Link
+                                className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                                href="/import"
+                            >
+                                /import
+                            </Link>
+                        </div>
+                    </li>
+                </ul>
+            </OnlyClient>
+        </main>
+    );
 }

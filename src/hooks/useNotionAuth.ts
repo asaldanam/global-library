@@ -33,8 +33,6 @@ export function useNotionAuth() {
         }
     }, []);
 
-    console.log(auth);
-
     return { auth };
 }
 
