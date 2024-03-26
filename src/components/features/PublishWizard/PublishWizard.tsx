@@ -27,7 +27,7 @@ const PublishWizard = () => {
     return (
         <>
             <div className="PublishWizard">
-                <div className="flex flex-col items-end p-7">
+                <div className="flex flex-col items-end p-7 text-xs">
                     <pre className="text-xs bg-slate-50 p-3">
                         <code>{JSON.stringify(story, null, 2)}</code>
                     </pre>
@@ -37,12 +37,11 @@ const PublishWizard = () => {
 
                     {isMutating && <p>Publishing...</p>}
                     {publication && (
-                        <div>
-                            <p>Published!</p>
+                        <pre className="text-xs bg-slate-50 p-3 text-xs">
                             <a href={`https://nftstorage.link/ipfs/${publication.cid}`} target="_blank">
-                                {`https://nftstorage.link/ipfs/${publication.cid}`}
+                                {publication.cid}
                             </a>
-                        </div>
+                        </pre>
                     )}
                 </div>
             </div>
