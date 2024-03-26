@@ -1,6 +1,6 @@
 import { File, NFTStorage } from 'nft.storage';
 
-import { createPublication } from '../../domain/models/Publication';
+import { createPublication } from '../../domain/models/Publication/Publication';
 import { PublishRepository } from '../../domain/reposity/PublishRepository';
 
 const NFT_STORAGE_KEY =

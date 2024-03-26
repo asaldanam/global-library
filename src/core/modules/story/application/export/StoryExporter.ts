@@ -1,5 +1,5 @@
-import { Publication } from '../../domain/models/Publication';
-import { createStory } from '../../domain/models/Story';
+import { Publication } from '../../domain/models/Publication/Publication';
+import { createStory } from '../../domain/models/Story/Story';
 import { PublishRepository } from '../../domain/reposity/PublishRepository';
 
 export class StoryExporter {

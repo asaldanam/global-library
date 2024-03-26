@@ -1,8 +1,10 @@
 import { z } from 'zod';
 import { Chapter } from './Chapter';
 
+export type Story = z.infer<typeof Story>;
+
 const Story = z.object({
-    id: z.string(),
+    id: z.string().uuid(),
     meta: z.object({
         author: z.object({
             name: z.string(),
@@ -16,7 +18,5 @@ const Story = z.object({
     title: z.string(),
     cover: z.string()
 });
-
-export type Story = z.infer<typeof Story>;
 
 export const createStory = (story: Story) => Story.parse(story);
