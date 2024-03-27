@@ -8,19 +8,35 @@ type ReaderProps = {
 
 const Reader = ({ story }: ReaderProps) => {
     const page = story.content[0].pages[0];
+    const description = page.blocks.find((b) => b.type === 'paragraph')?.data?.text?.slice(0, 150);
 
     return (
-        <html lang="es-ES">
+        <html lang={story.meta.lang}>
             <head>
                 <title>{story.title}</title>
+
+                <meta property="og:title" content={story.title} />
+                <meta property="og:type" content="story" />
+
+                {description && (
+                    <meta
+                        property="og:description"
+                        content={`${description} ${description.length > 150 ? '[...]' : ''}`}
+                    />
+                )}
+
+                {/* Font */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
                 <link
                     href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
                     rel="stylesheet"
                 />
+
+                {/* Styles */}
                 <style>{styles}</style>
             </head>
+
             <body>
                 <main className="Reader">
                     <section className="Reader-content">
@@ -61,6 +77,7 @@ const Reader = ({ story }: ReaderProps) => {
                         </p>
                     </footer>
                 </main>
+
                 <script id="#story" data-story={JSON.stringify(story)} />
             </body>
         </html>
@@ -131,6 +148,10 @@ const styles = /*css*/ `
         font-size: 1em;
         line-height: 1.6em;
         letter-spacing: -0.003em;
+
+        text-align: justify;
+        overflow-wrap: break-word;
+        hyphens: auto;
     }
 
     .Reader-content h1 {
@@ -139,6 +160,10 @@ const styles = /*css*/ `
         text-align: center;
         font-size: 2em;
     }
+
+    // .Reader-content p + p {
+    //     text-indent: 1em;
+    // }
 
     .Reader-capital {
         font-size: 3.5em;

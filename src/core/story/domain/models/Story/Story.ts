@@ -12,7 +12,8 @@ const Story = z.object({
             avatar: z.string()
         }),
         createdAt: z.string(),
-        version: z.number()
+        version: z.number(),
+        lang: z.string()
     }),
     content: z.array(Chapter),
     title: z.string(),
