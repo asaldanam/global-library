@@ -1,7 +1,7 @@
 import { z } from 'zod';
 
 const Publication = z.object({
-  cid: z.string()
+    path: z.string()
 });
 
 export type Publication = z.infer<typeof Publication>;

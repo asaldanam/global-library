@@ -4,7 +4,7 @@ export * from './domain/models/Story/Block';
 export * from './domain/models/Story/Page';
 export * from './domain/models/Story/Chapter';
 
-export * from './application/publish/StoryPublisher';
+export * from './application/publish/PublishService';
 
-export * from './infrastructure/repository/NftStoragePublishRepository';
+export * from './infrastructure/IpfsFileStorage';
 export * from '../../mocks/story/createStoryExample';

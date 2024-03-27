@@ -8,22 +8,34 @@ type ReaderProps = {
 
 const Reader = ({ story }: ReaderProps) => {
     const page = story.content[0].pages[0];
-    const description = page.blocks.find((b) => b.type === 'paragraph')?.data?.text?.slice(0, 150);
+    const description = page.blocks.find((b) => b.type === 'paragraph')?.data?.text?.slice(0, 150) || '';
 
     return (
         <html lang={story.meta.lang}>
             <head>
-                <title>{story.title}</title>
+                {/* Meta */}
+                <meta
+                    http-equiv="Content-Security-Policy"
+                    content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;"
+                />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta charSet="UTF-8" />
+                <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+                <meta lang={story.meta.lang} />
+                <meta name="robots" content="index, follow" />
+                <meta name="author" content={story.meta.author.name} />
+                <meta name="keywords" content={story.title} />
+                <meta name="theme-color" content="#000000" />
 
+                {/* Content */}
+                <title>{story.title}</title>
                 <meta property="og:title" content={story.title} />
+                <meta name="description" content={description} />
+                <meta property="og:description" content={`${description} ${description.length > 150 ? '[...]' : ''}`} />
                 <meta property="og:type" content="story" />
 
-                {description && (
-                    <meta
-                        property="og:description"
-                        content={`${description} ${description.length > 150 ? '[...]' : ''}`}
-                    />
-                )}
+                {/* TODO Favicon */}
+                {/* <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16" /> */}
 
                 {/* Font */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />

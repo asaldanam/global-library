@@ -1,9 +1,9 @@
 import { Publication } from '../../domain/models/Publication/Publication';
 import { createStory } from '../../domain/models/Story/Story';
-import { PublishRepository } from '../../domain/reposity/PublishRepository';
+import { FileStorage } from '../../domain/interfaces/FileStorage';
 
 export class NotionStoryImporter {
-    constructor(public readonly repository: PublishRepository) {}
+    constructor(public readonly repository: FileStorage) {}
 
     async import(data: any) {}
 }
