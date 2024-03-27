@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter as FontSans } from 'next/font/google';
 import './globals.css';
 import { cn } from '@/browser/lib/utils';
-import { SWRProvider } from '../browser/components/providers/SwrProvider';
+import { SWRProvider } from '../components/providers/SwrProvider';
 import OnlyClient from '@/browser/utils/OnlyClient';
 import { Suspense } from 'react';
 

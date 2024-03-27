@@ -1,0 +1,9 @@
+import Reader from '@/components/features/Reader';
+import { Story } from '@/core';
+
+export async function htmlStoryRenderer(story: Story) {
+    const ReactDOMServer = (await import('react-dom/server')).default;
+    const html = ReactDOMServer.renderToStaticMarkup(<Reader story={story} />);
+
+    return html;
+}

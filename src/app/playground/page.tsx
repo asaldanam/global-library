@@ -1,25 +1,16 @@
 'use server';
 
 import { createStoryExample } from '@/core';
-import { htmlStoryRenderer } from './htmlStoryRenderer';
+import { htmlStoryRenderer } from '../../components/features/Reader/utils/htmlStoryRenderer';
 
 /** /publish */
 export default async function Page() {
-    const a = await htmlStoryRenderer(createStoryExample());
-    const page = `
-    <html>
-        <head>
-            <title>Page</title>
-        </head>
-        <body>
-            <h1>Page</h1>
-        </body>
-    </html>`;
-    console.log(a);
+    const story = createStoryExample();
+    const html = await htmlStoryRenderer(story);
 
     return (
         <>
-            <iframe className="w-full h-full fixed" srcDoc={page} />
+            <iframe className="w-full h-full fixed" srcDoc={html} />
         </>
     );
 }

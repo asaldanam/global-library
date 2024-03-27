@@ -2,7 +2,7 @@ import { storyPublisher } from '@/server/services';
 import { NextRequest, NextResponse } from 'next/server';
 
 /** /api/publish */
-export async function PUT(request: NextRequest) {
+export async function POST(request: NextRequest) {
     try {
         const body = await request.json();
         const publication = await storyPublisher.publish(body);

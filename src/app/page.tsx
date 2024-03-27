@@ -7,8 +7,8 @@ export default function Page() {
                 <li className="mt-4">
                     <div>
                         <div>Escribe tu historia</div>
-                        <Link className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="/write">
-                            /write
+                        <Link className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="/editor">
+                            /editor
                         </Link>
                     </div>
                 </li>

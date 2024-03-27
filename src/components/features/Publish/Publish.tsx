@@ -3,12 +3,12 @@
 import { useEffect, useState } from 'react';
 import useSWRMutation from 'swr/mutation';
 
-import { Button } from '@/browser/components/ui/button';
+import { Button } from '@/components/ui/button';
 import { Publication, Story, createStory, createStoryExample } from '@/core';
 import { mutator } from '@/browser/lib/mutator';
 
-const PublishWizard = () => {
-    const { trigger, isMutating, data } = useSWRMutation('/api/publish', mutator());
+const Publish = () => {
+    const { trigger, isMutating, data } = useSWRMutation('/api/publish', mutator({ method: 'POST' }));
     const publication: Publication | null = data ? data : null;
 
     const [story, setStory] = useState<Story | null>(null);
@@ -26,7 +26,7 @@ const PublishWizard = () => {
 
     return (
         <>
-            <div className="PublishWizard">
+            <div className="Publish">
                 <div className="flex flex-col items-end p-7 text-xs">
                     <pre className="text-xs bg-slate-50 p-3 text-ellipsis max-w-full whitespace-break-spaces overflow-hidden">
                         <code>{JSON.stringify(story, null, 2)}</code>
@@ -49,4 +49,4 @@ const PublishWizard = () => {
     );
 };
 
-export default PublishWizard;
+export default Publish;

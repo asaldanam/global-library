@@ -1,9 +1,10 @@
-import NotionImportWizard from '@/browser/components/features/NotionImportWizard';
+import OnlyClient from '@/browser/utils/OnlyClient';
+import Import from '@/components/features/Import';
 
 export default function Page() {
     return (
-        <main className="flex flex-col items-center h-dvh">
-            <NotionImportWizard />
-        </main>
+        <OnlyClient>
+            <Import />
+        </OnlyClient>
     );
 }

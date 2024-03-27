@@ -1,16 +1,16 @@
 'use client';
 
-import { Button } from '@/browser/components/ui/button';
-import { Input } from '@/browser/components/ui/input';
-import { Label } from '@/browser/components/ui/label';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
 import { useNotion } from '@/browser/hooks/useNotionPages';
 
-const NotionImportWizard = () => {
+const Import = () => {
     const { auth, searchPages } = useNotion();
 
     return (
-        <>
-            <div className="NotionImportWizard">
+        <main className="flex flex-col items-center h-dvh">
+            <div className="Import">
                 <a href={process.env.NEXT_PUBLIC_NOTION_AUTH_URL} target="_blank">
                     <Button>Conecta con Notion</Button>
                 </a>
@@ -22,8 +22,8 @@ const NotionImportWizard = () => {
                     </div>
                 )}
             </div>
-        </>
+        </main>
     );
 };
 
-export default NotionImportWizard;
+export default Import;
