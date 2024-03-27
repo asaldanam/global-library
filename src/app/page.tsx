@@ -28,6 +28,17 @@ export default function Page() {
                         </Link>
                     </div>
                 </li>
+                <li className="mt-4">
+                    <div>
+                        <div>Para maquetar el lector de historias</div>
+                        <Link
+                            className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                            href="/playground"
+                        >
+                            /playground
+                        </Link>
+                    </div>
+                </li>
             </ul>
         </main>
     );

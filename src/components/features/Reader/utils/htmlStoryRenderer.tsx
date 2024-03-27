@@ -3,7 +3,8 @@ import { Story } from '@/core';
 
 export async function htmlStoryRenderer(story: Story) {
     const ReactDOMServer = (await import('react-dom/server')).default;
-    const html = ReactDOMServer.renderToStaticMarkup(<Reader story={story} />);
+    const raw = ReactDOMServer.renderToStaticMarkup(<Reader story={story} />);
+    const html = raw.replaceAll(/&quot;/g, '"');
 
     return html;
 }

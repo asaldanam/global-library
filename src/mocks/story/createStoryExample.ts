@@ -15,11 +15,11 @@ export const createStoryExample = () =>
     createStory({
         cover: 'https://source.unsplash.com/random/800x600',
         id: crypto.randomUUID(),
-        title: 'Title',
+        title: 'Razones',
         meta: {
             author: {
                 avatar: 'https://source.unsplash.com/random/100x100',
-                name: 'Author',
+                name: 'Derlan',
                 email: ''
             },
             createdAt: new Date().toISOString(),
