@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-head-element */
 /* eslint-disable @next/next/no-page-custom-font */
-import { Story } from '@/core';
+import { Story } from '@/core/story';
 
 type ReaderProps = {
     story: Story;

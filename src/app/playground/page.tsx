@@ -1,6 +1,6 @@
 'use server';
 
-import { createStoryExample } from '@/core';
+import { createStoryExample } from '@/core/story';
 import { htmlStoryRenderer } from '../../components/features/Reader/utils/htmlStoryRenderer';
 
 /** /publish */

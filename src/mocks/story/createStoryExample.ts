@@ -1,5 +1,5 @@
-import { Block } from '@/core/modules/story/domain/models/Story/Block';
-import { createStory } from '../../core/modules/story';
+import { Block } from '@/core/story';
+import { createStory } from '../../core/story';
 import blocks_id from '@/mocks/notion/blocks_id.json';
 
 const blocks = blocks_id.results

@@ -5,7 +5,6 @@ export type Story = z.infer<typeof Story>;
 
 const Story = z.object({
     id: z.string().uuid(),
-    cid: z.string().optional(),
     meta: z.object({
         author: z.object({
             name: z.string(),

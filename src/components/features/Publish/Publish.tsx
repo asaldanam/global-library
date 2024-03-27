@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import useSWRMutation from 'swr/mutation';
 
 import { Button } from '@/components/ui/button';
-import { Publication, Story, createStory, createStoryExample } from '@/core';
+import { Publication, Story, createStory, createStoryExample } from '@/core/story';
 import { mutator } from '@/browser/lib/mutator';
 
 const Publish = () => {

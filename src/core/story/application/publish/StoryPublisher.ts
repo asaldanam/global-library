@@ -2,7 +2,7 @@ import { Publication } from '../../domain/models/Publication/Publication';
 import { createStory } from '../../domain/models/Story/Story';
 import { PublishRepository } from '../../domain/reposity/PublishRepository';
 
-export class StoryPublisher {
+export class PublishService {
     constructor(public readonly repository: PublishRepository) {}
 
     async publish(data: any): Promise<Publication> {
