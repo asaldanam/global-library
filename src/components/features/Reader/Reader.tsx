@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-head-element */
 /* eslint-disable @next/next/no-page-custom-font */
 import { Story } from '@/core/story';
+import { fonts } from './fonts.css';
+import { variables } from './variables.css';
 
 type ReaderProps = {
     story: Story;
@@ -14,18 +16,11 @@ const Reader = ({ story }: ReaderProps) => {
         <html lang={story.meta.lang}>
             <head>
                 {/* Meta */}
-                <meta
-                    http-equiv="Content-Security-Policy"
-                    content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;"
-                />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta charSet="UTF-8" />
-                <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
                 <meta lang={story.meta.lang} />
+                <meta charSet="UTF-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta httpEquiv="Content-type" content="text/html; charset=UTF-8" />
                 <meta name="robots" content="index, follow" />
-                <meta name="author" content={story.meta.author.name} />
-                <meta name="keywords" content={story.title} />
-                <meta name="theme-color" content="#000000" />
 
                 {/* Content */}
                 <title>{story.title}</title>
@@ -33,19 +28,16 @@ const Reader = ({ story }: ReaderProps) => {
                 <meta name="description" content={description} />
                 <meta property="og:description" content={`${description} ${description.length > 150 ? '[...]' : ''}`} />
                 <meta property="og:type" content="story" />
+                <meta name="author" content={story.meta.author.name} />
+                <meta name="keywords" content={story.title} />
+                <meta name="theme-color" content="#000000" />
 
                 {/* TODO Favicon */}
                 {/* <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16" /> */}
 
-                {/* Font */}
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-                <link
-                    href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
-                    rel="stylesheet"
-                />
-
                 {/* Styles */}
+                <style>{variables}</style>
+                <style>{fonts}</style>
                 <style>{styles}</style>
             </head>
 
@@ -99,27 +91,6 @@ const Reader = ({ story }: ReaderProps) => {
 export default Reader;
 
 const styles = /*css*/ `
-    :root {
-        --font-size: 1rem;
-        --max-width: 42em;
-    }
-
-    @media (prefers-color-scheme: light) {
-        :root {
-            --background: 0 0% 100%;
-            --foreground: 0 0% 0%;
-            --foreground-muted: 0 0% 45%;
-        }
-    }
-
-    @media (prefers-color-scheme: dark) {
-        :root {
-            --background: 0 0% 0%;
-            --foreground: 0 0% 100%;
-            --foreground-muted: 0 0% 65%;
-        }
-    }
-
     html, body {
         padding: 0;
         margin: 0;

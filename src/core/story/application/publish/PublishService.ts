@@ -8,13 +8,8 @@ export class PublishService {
 
     async publish(data: any): Promise<Publication> {
         const story = createStory(data);
-
-        const file = await this.renderer.render(story);
-
-        // // crea un File cuyo contenido es el stringify de la story
-        // const file = new Blob([JSON.stringify(story)], { type: 'application/json' });
-
-        const publication = await this.storage.uploadFilesDirectory(file);
+        const files = await this.renderer.toFiles(story);
+        const publication = await this.storage.uploadFilesDirectory(files);
 
         return publication;
     }

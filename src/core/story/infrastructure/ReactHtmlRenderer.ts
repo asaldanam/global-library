@@ -9,7 +9,16 @@ export class ReactHtmlRenderer implements Renderer {
         public readonly Component: React.FC<{ story: Story }>
     ) {}
 
-    async render(story: Story): Promise<File[]> {
+    async toFiles(story: Story): Promise<File[]> {
+        const html = await this.render(story);
+
+        const index = new File([html], 'index.html', { type: 'text/html', endings: 'native' });
+        const files = [index];
+
+        return files;
+    }
+
+    async render(story: Story): Promise<string> {
         const { Component } = this;
 
         // Lazy load to bypass next.js check that prevenst import react-dom/server
@@ -20,11 +29,8 @@ export class ReactHtmlRenderer implements Renderer {
         const raw = ReactDOMServer.renderToStaticMarkup(Component({ story }));
 
         // Replace &quot; with "
-        const html = raw.replaceAll(/&quot;/g, '"');
+        const html = raw.replaceAll(/&quot;/g, '"').replaceAll(/&#x27;/g, "'");
 
-        const index = new File([html], 'index.html', { type: 'text/html', endings: 'native' });
-        const files = [index];
-
-        return files;
+        return html;
     }
 }
