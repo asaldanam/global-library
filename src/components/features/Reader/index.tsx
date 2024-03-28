@@ -1,1 +1,1 @@
-export { default } from './Reader';
+export { default } from './StoryView';

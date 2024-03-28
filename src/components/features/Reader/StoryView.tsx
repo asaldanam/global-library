@@ -1,16 +1,18 @@
 /* eslint-disable @next/next/no-head-element */
 /* eslint-disable @next/next/no-page-custom-font */
 import { Story } from '@/core/story';
-import { fonts } from './fonts.css';
-import { variables } from './variables.css';
+import PageView from './components/PageView';
+import { theme } from './styles/theme.css';
+import { styled } from '@/styles/styled';
+import { common } from './styles/common.css';
 
-type ReaderProps = {
+type StoryViewProps = {
     story: Story;
 };
 
-const Reader = ({ story }: ReaderProps) => {
-    const page = story.content[0].pages[0];
-    const description = page.blocks.find((b) => b.type === 'paragraph')?.data?.text?.slice(0, 150) || '';
+const StoryView = ({ story }: StoryViewProps) => {
+    const firstPage = story.content[0].pages[0];
+    const description = firstPage.blocks.find((b) => b.type === 'paragraph')?.data?.text?.slice(0, 150) || '';
 
     return (
         <html lang={story.meta.lang}>
@@ -36,39 +38,18 @@ const Reader = ({ story }: ReaderProps) => {
                 {/* <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16" /> */}
 
                 {/* Styles */}
-                <style>{variables}</style>
-                <style>{fonts}</style>
+                <style>{theme}</style>
                 <style>{styles}</style>
+                <style>{common}</style>
             </head>
 
             <body>
-                <main className="Reader">
-                    <section className="Reader-content">
+                <main className="StoryView">
+                    <section>
                         <h1>{story.title}</h1>
-
-                        {page.blocks.map(({ data, type }, index) => {
-                            if (type === 'paragraph') {
-                                const text = data.text;
-                                if (!text) return null;
-
-                                const capitalLetterSize = text.length > 180 ? '5.5em' : '3.5em';
-
-                                // No funcionará si el primer bloque no es paragraph
-                                const capitalLetter = `<span style="font-size: ${capitalLetterSize}" class="Reader-capital">${text[0]}</span>`;
-                                const restText = text.slice(1);
-
-                                const capitalizedText = capitalLetter + restText;
-
-                                return (
-                                    <p
-                                        key={index}
-                                        dangerouslySetInnerHTML={{ __html: index === 0 ? capitalizedText : text }}
-                                    ></p>
-                                );
-                            }
-                        })}
+                        <PageView page={firstPage} />
                     </section>
-                    <footer className="Reader-footer">
+                    <footer className="StoryView-footer StoryView-container">
                         <p>
                             © {new Date().getFullYear()} {story.meta.author.name}
                         </p>
@@ -88,15 +69,16 @@ const Reader = ({ story }: ReaderProps) => {
     );
 };
 
-export default Reader;
+export default StoryView;
 
-const styles = /*css*/ `
-    html, body {
+const styles = styled`
+    html,
+    body {
         padding: 0;
         margin: 0;
 
         font-size: 100%;
-        font-family: "Source Serif 4", Georgia, Cambria, "Times New Roman", Times, serif;
+        font-family: 'Source Serif 4', Georgia, Cambria, 'Times New Roman', Times, serif;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
@@ -111,62 +93,46 @@ const styles = /*css*/ `
         color: hsl(var(--foreground));
     }
 
-    .Reader {
+    .StoryView {
         font-size: var(--font-size);
-        font-size: 1rem
+        font-size: 1rem;
+        padding-top: 2rem;
     }
 
-    @media (min-width: 375px) {
-        .Reader { font-size: 1.125rem }
+    @media (min-width: 560px) {
+        .StoryView {
+            font-size: 1.125rem;
+        }
     }
 
     @media (min-width: 768px) {
-        .Reader { font-size: 1.25rem }
+        .StoryView {
+            font-size: 1.25rem;
+        }
     }
 
-    .Reader-content {
-        max-width: var(--max-width);
-        margin: 0 auto;
-        padding-top: 3em;
-        font-size: 1em;
-        line-height: 1.6em;
-        letter-spacing: -0.003em;
-
-        text-align: justify;
-        overflow-wrap: break-word;
-        hyphens: auto;
-    }
-
-    .Reader-content h1 {
+    h1 {
         margin-top: 0;
         margin-bottom: 1em;
         text-align: center;
         font-size: 2em;
     }
 
-    // .Reader-content p + p {
-    //     text-indent: 1em;
-    // }
-
-    .Reader-capital {
-        font-size: 3.5em;
-        padding: 0 0.1em 0 0;
-        font-weight: 500;
-        position: relative;
-        top: 0.05em;
-        float: left;
-        line-height: 0.8em;
+    a {
+        color: hsl(var(--link));
+        text-decoration: none;
     }
 
-    .Reader-footer {
-        max-width: var(--max-width);
-        margin: 2em auto 1em;
-        text-align: center;
+    .StoryView-footer {
         font-size: 0.875em;
         color: hsl(var(--foreground-muted));
+        text-align: center;
+
+        margin-top: 2em;
+        margin-bottom: 1em;
     }
 
-    .Reader-footer p {
+    .StoryView-footer p {
         margin: 0;
     }
 `;
