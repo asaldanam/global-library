@@ -41,7 +41,7 @@ export default PageView;
 const styles = styled`
     .PageView {
         font-size: 1em;
-        line-height: 1.6em;
+        line-height: 1.5em;
         letter-spacing: -0.003em;
 
         text-align: justify;
@@ -49,26 +49,16 @@ const styles = styled`
         hyphens: auto;
     }
 
-    .PageView h1 {
-        margin-top: 0;
-        margin-bottom: 1em;
-        text-align: center;
-        font-size: 2em;
+    .PageView p + p {
+        text-indent: 1em;
     }
 
-    // .PageView-content p + p {
-    //     text-indent: 1em;
-    // }
-
     .PageView-capital {
-        background: hsl(var(--background-muted));
-        padding: 0.05em 0.125em;
-        margin-right: 0.1em;
-
-        font-family: 'Apple Chancery', cursive, Georgia, serif;
+        margin-right: 0.125em;
+        position: relative;;
         font-weight: 500;
         position: relative;
-        top: 0.05em;
+        top: 6px;
         float: left;
         line-height: 0.8em;
     }

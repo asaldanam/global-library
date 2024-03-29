@@ -78,7 +78,7 @@ const styles = styled`
         margin: 0;
 
         font-size: 100%;
-        font-family: 'Source Serif 4', Georgia, Cambria, 'Times New Roman', Times, serif;
+        font-family: Georgia, Cambria, 'Times New Roman', Times, serif;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
@@ -88,7 +88,7 @@ const styles = styled`
     }
 
     body {
-        padding: 1.5rem;
+        padding: 1rem;
         background: hsl(var(--background));
         color: hsl(var(--foreground));
     }
@@ -115,7 +115,8 @@ const styles = styled`
         margin-top: 0;
         margin-bottom: 1em;
         text-align: center;
-        font-size: 2em;
+        // tamaño de fuente según ancho de la pantalla
+        font-size: clamp(1.5rem, 3vw, 3.5rem);
     }
 
     a {

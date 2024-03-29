@@ -7,7 +7,7 @@ const satisfy = Satisfy({
 });
 
 const Logo = () => {
-    return <div className={cn(satisfy.className, 'text-3xl underline decoration-amber-500')}>fabula.pub</div>;
+    return <div className={cn(satisfy.className, 'text-2xl')}>fabula.pub</div>;
 };
 
 export default Logo;

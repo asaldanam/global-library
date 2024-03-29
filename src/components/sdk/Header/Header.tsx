@@ -23,7 +23,7 @@ const Header = (props: PropsWithChildren) => {
 
     return (
         <>
-            <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+            <header className="sticky top-0 z-50 w-full border-b border-border/40 border-background bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
                 <div className="container flex h-14 max-w-screen-2xl items-center">
                     {/* Left side */}
                     <Link href={'/'}>
@@ -33,7 +33,7 @@ const Header = (props: PropsWithChildren) => {
                     {/* Right side */}
                     <div className="ml-auto flex items-center space-x-4 gap-3">
                         {/* Custom menu */}
-                        {props.children}
+                        <div className="flex items-end gap-3">{props.children}</div>
 
                         {/* User menu */}
                         <DropdownMenu>

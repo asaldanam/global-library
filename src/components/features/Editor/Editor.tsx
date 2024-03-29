@@ -5,6 +5,7 @@ import Header from '@/components/sdk/Header';
 import { Story, createStoryExample } from '@/core/story';
 import S from './Editor.module.css';
 import { PublishAction } from '../Publish';
+import EditorActions from './components/EditorActions/EditorActions';
 
 const Editor = () => {
     const [story, setStory] = useState<Story>();
@@ -16,6 +17,7 @@ const Editor = () => {
     return (
         <main className={S.Editor}>
             <Header>
+                <EditorActions />
                 <PublishAction story={story} />
             </Header>
 
