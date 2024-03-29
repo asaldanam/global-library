@@ -1,10 +1,17 @@
 import type { Metadata } from 'next';
-import { Inter as FontSans } from 'next/font/google';
-import './globals.css';
-import { cn } from '@/browser/lib/utils';
-import { SWRProvider } from '../components/providers/SwrProvider';
-import OnlyClient from '@/browser/utils/OnlyClient';
+import { Inter as FontSans, Satisfy } from 'next/font/google';
 import { Suspense } from 'react';
+
+import { cn } from '@/lib/utils';
+
+import { SWRProvider } from '../components/providers/SwrProvider';
+import './globals.css';
+import { ThemeProvider } from '@/components/providers/ThemeProvider';
+
+const satisfy = Satisfy({
+    weight: ['400'],
+    subsets: ['latin']
+});
 
 const fontSans = FontSans({
     subsets: ['latin'],
@@ -25,7 +32,9 @@ export default function RootLayout({
         <html lang="en">
             <body className={cn('min-h-screen bg-background font-sans antialiased', fontSans.variable)}>
                 <Suspense>
-                    <SWRProvider>{children}</SWRProvider>
+                    <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+                        <SWRProvider>{children}</SWRProvider>
+                    </ThemeProvider>
                 </Suspense>
             </body>
         </html>

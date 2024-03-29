@@ -1,4 +1,4 @@
-import { mutator } from '@/browser/lib/mutator';
+import { mutator } from '@/lib/mutator';
 import { NextRequest, NextResponse } from 'next/server';
 
 export async function POST(request: NextRequest) {

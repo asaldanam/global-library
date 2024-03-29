@@ -1,4 +1,4 @@
-import { mutator } from '@/browser/lib/mutator';
+import { mutator } from '@/lib/mutator';
 import { useSearchParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import useSWRMutation from 'swr/mutation';

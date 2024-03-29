@@ -1,6 +1,6 @@
 'use client';
 
-import { fetcher } from '@/browser/lib/fetcher';
+import { fetcher } from '@/lib/fetcher';
 import { PropsWithChildren } from 'react';
 import { SWRConfig } from 'swr';
 
