@@ -11,7 +11,7 @@ import { DotsHorizontalIcon } from '@radix-ui/react-icons';
 const EditorActions = () => {
     return (
         <>
-            <DropdownMenu>
+            {/* <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                     <Button variant="ghost">
                         <span className="sr-only">Actions</span>
@@ -19,13 +19,12 @@ const EditorActions = () => {
                     </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end">
-                    <DropdownMenuItem onSelect={() => setIsOpen(true)}>Content filter preferences</DropdownMenuItem>
+                    <DropdownMenuItem onSelect={() => {}}>Content filter preferences</DropdownMenuItem>
                     <DropdownMenuSeparator />
                 </DropdownMenuContent>
-            </DropdownMenu>
-            <Button variant="ghost">
-                <span className="sr-only">Actions</span>
-                <DotsHorizontalIcon className="h-4 w-4" />
+            </DropdownMenu> */}
+            <Button size="sm" variant="ghost">
+                Save
             </Button>
         </>
     );

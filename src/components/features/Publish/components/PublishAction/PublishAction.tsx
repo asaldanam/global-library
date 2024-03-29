@@ -23,7 +23,7 @@ const PublishAction = (props: PublishActionProps) => {
     return (
         <Dialog>
             <DialogTrigger asChild>
-                <Button disabled={!story} variant="default">
+                <Button variant="default" size="sm" disabled={!story}>
                     Publish
                 </Button>
             </DialogTrigger>
