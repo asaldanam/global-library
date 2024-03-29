@@ -44,9 +44,9 @@ const styles = styled`
         line-height: 1.6em;
         letter-spacing: -0.003em;
 
-        // text-align: justify;
-        // overflow-wrap: break-word;
-        // hyphens: auto;
+        text-align: justify;
+        overflow-wrap: break-word;
+        hyphens: auto;
     }
 
     .PageView h1 {

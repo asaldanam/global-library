@@ -9,6 +9,8 @@ import {
     DialogTrigger
 } from '@/components/ui/dialog';
 import { Story } from '@/core/story';
+import { cn } from '@/lib/utils';
+import { Satisfy } from 'next/font/google';
 import Link from 'next/link';
 
 type PublishActionProps = {
@@ -20,14 +22,14 @@ const PublishAction = (props: PublishActionProps) => {
 
     return (
         <Dialog>
-            <DialogTrigger>
+            <DialogTrigger asChild>
                 <Button disabled={!story} variant="default">
                     Publish
                 </Button>
             </DialogTrigger>
             <DialogContent className="max-w-xl">
                 <DialogHeader>
-                    <DialogTitle>Publish</DialogTitle>
+                    <DialogTitle>Publish your story</DialogTitle>
                     <DialogDescription>
                         Your story will be published on{' '}
                         <Link href="https://ipfs.tech/" target="_blank">
@@ -43,3 +45,8 @@ const PublishAction = (props: PublishActionProps) => {
 };
 
 export default PublishAction;
+
+const satisfy = Satisfy({
+    weight: ['400'],
+    subsets: ['latin']
+});
