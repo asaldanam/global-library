@@ -3,7 +3,7 @@ import { Chapter } from './Chapter';
 
 export type Story = z.infer<typeof Story>;
 
-const Story = z.object({
+export const Story = z.object({
     id: z.string().uuid(),
     meta: z.object({
         author: z.object({

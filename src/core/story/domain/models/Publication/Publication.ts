@@ -1,7 +1,9 @@
 import { z } from 'zod';
+import { Story } from '../Story/Story';
 
 const Publication = z.object({
-    path: z.string()
+    path: z.string(),
+    story: Story
 });
 
 export type Publication = z.infer<typeof Publication>;
