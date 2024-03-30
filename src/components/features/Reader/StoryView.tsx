@@ -33,10 +33,9 @@ const StoryView = ({ story }: StoryViewProps) => {
                 {/* Open graph */}
                 <meta property="og:title" content={story.title} />
                 <meta property="og:description" content={`${description} ${description.length > 150 ? '[...]' : ''}`} />
-                <meta property="og:type" content="story" />
+                <meta property="og:type" content="article" />
+                <meta property="og:site_name" content="fabula.pub" />
                 <meta property="og:image" content={story.cover} />
-                <meta property="og:url" content={story.title} />
-                <meta property="og:determiner" content={story.title} />
 
                 {/* TODO Favicon */}
                 {/* <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16" /> */}

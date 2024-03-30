@@ -13,41 +13,46 @@ const FormCoverField = () => {
             <FormField
                 control={form.control}
                 name="cover"
-                render={({ field: { onChange, value, ...field } }) => (
-                    <FormItem>
-                        <FormLabel>Add a cover</FormLabel>
-                        <FormControl>
-                            <Input
-                                type="file"
-                                accept="image/png, image/gif, image/jpeg"
-                                placeholder="Add a cover"
-                                {...field}
-                                onChange={(e) => {
-                                    const files = e.target.files;
-                                    const file = files && files[0];
-                                    if (!file) return;
+                render={({ field: { onChange, value, ...field } }) => {
+                    return (
+                        <FormItem>
+                            <FormLabel>Add a cover</FormLabel>
+                            <FormControl>
+                                <Input
+                                    type="file"
+                                    accept="image/png, image/gif, image/jpeg"
+                                    placeholder="Add a cover"
+                                    {...field}
+                                    onChange={(e) => {
+                                        const files = e.target.files;
+                                        const file = files && files[0];
+                                        if (!file) return;
 
-                                    var reader = new FileReader();
-                                    reader.readAsDataURL(file);
-                                    reader.onload = function () {
-                                        onChange(reader.result);
-                                        console.log(reader.result);
-                                    };
-                                    reader.onerror = function (error) {
-                                        console.log('Error: ', error);
-                                    };
-                                }}
-                            />
-                        </FormControl>
-                        {value && (
-                            <AspectRatio ratio={16 / 9} className="bg-muted">
-                                <Image src={value} alt="cover" fill className="rounded-md object-cover" />
-                            </AspectRatio>
-                        )}
-                        <FormDescription>An awesome image your story more attractive</FormDescription>
-                        <FormMessage />
-                    </FormItem>
-                )}
+                                        var reader = new FileReader();
+                                        reader.readAsDataURL(file);
+                                        reader.onload = () => onChange(reader.result);
+                                        reader.onerror = (error) => onChange(null);
+                                    }}
+                                />
+                            </FormControl>
+
+                            <div>
+                                <AspectRatio ratio={120 / 63}>
+                                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                                    <img
+                                        src={value}
+                                        className="absolute rounded-md w-full h-full object-cover object-center"
+                                        alt="cover"
+                                        onError={(e) => e.currentTarget.setAttribute('style', 'display: none')}
+                                    />
+                                </AspectRatio>
+                            </div>
+
+                            <FormDescription>An awesome image your story more attractive</FormDescription>
+                            <FormMessage />
+                        </FormItem>
+                    );
+                }}
             />
         </>
     );
