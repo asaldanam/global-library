@@ -1,18 +1,44 @@
 import { Publication, createPublication } from '../../domain/models/Publication/Publication';
-import { createStory } from '../../domain/models/Story/Story';
+import { Story, createStory } from '../../domain/models/Story/Story';
 import { FileStorage } from '../../domain/interfaces/FileStorage';
 import { Renderer } from '../../domain/interfaces/Renderer';
+import { BlobImageProcessor } from '../../infrastructure/BlobImageProcessor';
+
+type PublishServiceConfig = {
+    gateways: string[];
+};
 
 export class PublishService {
-    constructor(public readonly renderer: Renderer, public readonly storage: FileStorage) {}
+    constructor(
+        private readonly config: PublishServiceConfig,
+        private readonly renderer: Renderer,
+        private readonly storage: FileStorage,
+        private readonly imageProcessor: BlobImageProcessor
+    ) {}
 
     async publish(data: any): Promise<Publication> {
         const story = createStory(data);
+
+        await this.processCoverImage(story);
         const files = await this.renderer.toFiles(story);
 
         const { path } = await this.storage.upload(files);
         const publication = createPublication({ path, story });
 
         return publication;
+    }
+
+    private async processCoverImage(story: Story): Promise<void> {
+        const { gateways } = this.config;
+        const cover = { source: story.cover, filename: 'cover' };
+
+        const [file] = await this.imageProcessor.processImages([cover]);
+        if (!file) return;
+
+        const { path, protocol } = await this.storage.upload([file]);
+
+        const baseUrl = gateways[0] || protocol;
+        const url = `${baseUrl}/${path}/${file.name}`;
+        story.cover = url;
     }
 }

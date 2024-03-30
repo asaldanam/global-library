@@ -34,7 +34,7 @@ const StoryView = ({ story }: StoryViewProps) => {
                 <meta property="og:title" content={story.title} />
                 <meta property="og:description" content={`${description} ${description.length > 150 ? '[...]' : ''}`} />
                 <meta property="og:type" content="article" />
-                <meta property="og:site_name" content="fabula.pub" />
+                <meta property="og:site_name" content="Generated with fabula.pub" />
                 <meta property="og:image" content={story.cover} />
 
                 {/* TODO Favicon */}
@@ -59,7 +59,7 @@ const StoryView = ({ story }: StoryViewProps) => {
                         <p>
                             <small>
                                 <em>
-                                    Generated with <a href="https://my-story.pub">my-story.pub</a>
+                                    Generated with <a href="https://fabula.pub">fabula.pub</a>
                                 </em>
                             </small>
                         </p>
