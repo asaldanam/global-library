@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react';
 
 import Header from '@/components/sdk/Header';
 import { Story, createStoryExample } from '@/core/story';
-import { PublishAction } from '../Publish';
 import S from './Editor.module.css';
+import PublishAction from './components/PublishAction';
 import SaveAction from './components/SaveAction';
 
 const Editor = () => {

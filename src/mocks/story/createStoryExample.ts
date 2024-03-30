@@ -13,7 +13,7 @@ const blocks = blocks_id.results
 
 export const createStoryExample = () =>
     createStory({
-        cover: 'https://source.unsplash.com/random/800x600',
+        cover: '',
         id: crypto.randomUUID(),
         title: 'Razones',
         meta: {

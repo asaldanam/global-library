@@ -26,13 +26,17 @@ const StoryView = ({ story }: StoryViewProps) => {
 
                 {/* Content */}
                 <title>{story.title}</title>
-                <meta property="og:title" content={story.title} />
                 <meta name="description" content={description} />
-                <meta property="og:description" content={`${description} ${description.length > 150 ? '[...]' : ''}`} />
-                <meta property="og:type" content="story" />
                 <meta name="author" content={story.meta.author.name} />
                 <meta name="keywords" content={story.title} />
-                <meta name="theme-color" content="#000000" />
+
+                {/* Open graph */}
+                <meta property="og:title" content={story.title} />
+                <meta property="og:description" content={`${description} ${description.length > 150 ? '[...]' : ''}`} />
+                <meta property="og:type" content="story" />
+                <meta property="og:image" content={story.cover} />
+                <meta property="og:url" content={story.title} />
+                <meta property="og:determiner" content={story.title} />
 
                 {/* TODO Favicon */}
                 {/* <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16" /> */}
