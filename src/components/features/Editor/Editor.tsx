@@ -3,9 +3,9 @@ import { useEffect, useState } from 'react';
 
 import Header from '@/components/sdk/Header';
 import { Story, createStoryExample } from '@/core/story';
-import S from './Editor.module.css';
 import { PublishAction } from '../Publish';
-import EditorActions from './components/EditorActions/EditorActions';
+import S from './Editor.module.css';
+import SaveAction from './components/SaveAction';
 
 const Editor = () => {
     const [story, setStory] = useState<Story>();
@@ -17,7 +17,7 @@ const Editor = () => {
     return (
         <main className={S.Editor}>
             <Header>
-                <EditorActions />
+                <SaveAction />
                 <PublishAction story={story} />
             </Header>
 

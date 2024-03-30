@@ -23,23 +23,11 @@ const PublishAction = (props: PublishActionProps) => {
     return (
         <Dialog>
             <DialogTrigger asChild>
-                <Button variant="default" size="sm" disabled={!story}>
+                <Button variant="default" disabled={!story}>
                     Publish
                 </Button>
             </DialogTrigger>
-            <DialogContent className="max-w-xl">
-                <DialogHeader>
-                    <DialogTitle>Publish your story</DialogTitle>
-                    <DialogDescription>
-                        Your story will be published on{' '}
-                        <Link href="https://ipfs.tech/" target="_blank">
-                            IPFS
-                        </Link>
-                        , the interplanetary file storage platform where it will remain forever.
-                    </DialogDescription>
-                </DialogHeader>
-                {story && <Publish story={story} />}
-            </DialogContent>
+            <DialogContent>{story && <Publish story={story} />}</DialogContent>
         </Dialog>
     );
 };
