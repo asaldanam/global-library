@@ -39,7 +39,7 @@ const StoryView = ({ story }: StoryViewProps) => {
                 <meta name="keywords" content={story.title} />
 
                 {/* Open graph */}
-                <meta property="og:site_name" content="Generated with fabula.pub" />
+                <meta property="og:site_name" content="Published with fabula.pub" />
                 <meta property="og:title" content={story.title} />
                 <meta property="og:description" content={`${description} ${description.length > 150 ? '[...]' : ''}`} />
                 <meta property="og:type" content="article" />
@@ -85,7 +85,7 @@ const StoryView = ({ story }: StoryViewProps) => {
                         <p className="StoryView-footer-generated-with">
                             <small>
                                 <em>
-                                    Generated with{' '}
+                                    Published with{' '}
                                     <a href="https://fabula.pub" target="_blank">
                                         Fabula
                                     </a>

@@ -7,7 +7,5 @@ export function calcReadTime(story: Story) {
         .filter((block) => block.type === 'paragraph')
         .reduce((acc, block) => acc + (block?.data?.text?.split(' ')?.length || 0), 0);
 
-    console.log('Total words:', totalWords);
-
     return Math.round(totalWords / 200);
 }
