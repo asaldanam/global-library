@@ -1,19 +1,13 @@
-import type { Metadata } from 'next';
-import { Inter as FontSans, Satisfy } from 'next/font/google';
-import { Suspense } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import type { Metadata } from 'next';
+import { Inter as FontSans } from 'next/font/google';
+import { Suspense } from 'react';
 
+import { ThemeProvider } from '@/components/providers/ThemeProvider';
 import { cn } from '@/lib/utils';
-
 import { SWRProvider } from '../components/providers/SwrProvider';
 import './globals.css';
-import { ThemeProvider } from '@/components/providers/ThemeProvider';
-import Head from 'next/head';
-
-const satisfy = Satisfy({
-    weight: ['400'],
-    subsets: ['latin']
-});
 
 const fontSans = FontSans({
     subsets: ['latin'],
@@ -44,6 +38,7 @@ export default function RootLayout({
             </head>
             <body className={cn('min-h-screen bg-background font-sans antialiased', fontSans.variable)}>
                 <Suspense>
+                    <Analytics />
                     <SpeedInsights />
                     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
                         <SWRProvider>{children}</SWRProvider>
