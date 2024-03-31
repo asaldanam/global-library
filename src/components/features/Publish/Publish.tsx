@@ -34,7 +34,7 @@ const Publish = (props: PropsWithChildren<PublishProps>) => {
     const publish = useSWRMutation('/api/publish', mutator({ method: 'POST' }));
 
     const onSubmit = (data: Story) => {
-        publish.trigger(data);
+        publish.trigger({ id: 'asdfasdf' });
     };
 
     if (publish.isMutating) return <PublishLoading />;

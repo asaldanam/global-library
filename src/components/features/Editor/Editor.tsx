@@ -6,10 +6,12 @@ import { Story, createStoryExample } from '@/core/story';
 import S from './Editor.module.css';
 import PublishAction from './components/PublishAction';
 import SaveAction from './components/SaveAction';
+import { Button } from '@/components/ui/button';
 
 const Editor = () => {
     const [story, setStory] = useState<Story>();
 
+    // Provisional example story
     useEffect(() => {
         setStory(createStoryExample());
     }, []);
