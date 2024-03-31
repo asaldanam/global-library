@@ -9,11 +9,11 @@ type PublishActionProps = {
 const PublishAction = (props: PublishActionProps) => {
     const { story } = props;
 
+    if (!story) return null;
+
     return (
         <Publish story={story}>
-            <Button variant="default" disabled={!story}>
-                Publish
-            </Button>
+            <Button variant="default">Publish</Button>
         </Publish>
     );
 };
