@@ -23,7 +23,7 @@ const CategoryField = (props: CategoryFieldProps) => {
                     <Select onValueChange={field.onChange} defaultValue={field.value}>
                         <FormControl>
                             <SelectTrigger>
-                                <SelectValue placeholder="Select category" />
+                                <SelectValue className="color-red" placeholder="Select category" />
                             </SelectTrigger>
                         </FormControl>
                         <SelectContent>

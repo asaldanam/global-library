@@ -36,7 +36,7 @@ const Publish = (props: PropsWithChildren<PublishProps>) => {
             meta: {
                 ...props.story.meta,
                 author: '',
-                category: null,
+                category: '',
                 lang: navigator.language.split('-')[0]
             }
         }
