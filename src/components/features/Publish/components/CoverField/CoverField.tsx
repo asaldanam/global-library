@@ -3,7 +3,7 @@ import { useFormContext } from 'react-hook-form';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 import { FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
-import { Story } from '@/core/story/domain';
+import { Cover, Story } from '@/core/story/domain';
 
 const CoverField = () => {
     const form = useFormContext<Story>();
@@ -16,11 +16,11 @@ const CoverField = () => {
                 render={({ field: { onChange, value, ...field } }) => {
                     return (
                         <FormItem>
-                            <FormLabel>Add a cover</FormLabel>
+                            <FormLabel>Cover image</FormLabel>
                             <FormControl>
                                 <Input
                                     type="file"
-                                    accept="image/png, image/gif, image/jpeg"
+                                    accept="image/*"
                                     placeholder="Add a cover"
                                     {...field}
                                     onChange={(e) => {
@@ -37,7 +37,7 @@ const CoverField = () => {
                             </FormControl>
 
                             <div>
-                                {value && (
+                                {Cover.safeParse(value).success && (
                                     <AspectRatio ratio={120 / 63}>
                                         {/* eslint-disable-next-line @next/next/no-img-element */}
                                         <img

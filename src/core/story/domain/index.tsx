@@ -9,4 +9,6 @@ export * from './models/Story/Language';
 export * from './models/Story/Page';
 export * from './models/Story/Story';
 export * from './models/Story/Meta';
+export * from './models/Story/Cover';
+
 export * from './models/Publication/Publication';
