@@ -1,4 +1,4 @@
-import { Block, createStory } from '@/core/story/domain';
+import { Block, categories, createStory } from '@/core/story/domain';
 import blocks_id from '@/mocks/notion/blocks_id.json';
 
 const blocks = blocks_id.results
@@ -18,7 +18,7 @@ export const createStoryExample = () =>
         meta: {
             author: '',
             createdAt: new Date().toISOString(),
-            category: 'adventure',
+            category: categories[0].value,
             lang: 'es'
         },
         content: [

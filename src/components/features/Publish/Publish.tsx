@@ -21,21 +21,32 @@ import CoverField from './components/CoverField';
 import LanguageField from './components/LanguageField';
 import PublishLoading from './components/PublishLoading';
 import PublishResult from './components/PublishResult';
-import { Publication, Story } from '@/core/story/domain';
+import { Publication, Story, createStory } from '@/core/story/domain';
 import CategoryField from './components/CategoryField';
+import { create } from 'domain';
 
 type PublishProps = {
     story: Story;
 };
 
 const Publish = (props: PropsWithChildren<PublishProps>) => {
-    const { story, children } = props;
-    const form = useForm<Story>({ values: story });
+    const form = useForm({
+        defaultValues: {
+            ...props.story,
+            meta: {
+                ...props.story.meta,
+                author: '',
+                category: null,
+                lang: navigator.language.split('-')[0]
+            }
+        }
+    });
 
     const publish = useSWRMutation('/api/publish', mutator({ method: 'POST' }));
 
-    const onSubmit = (data: Story) => {
-        publish.trigger({ id: 'asdfasdf' });
+    const onSubmit = (data: any) => {
+        const story = createStory(data);
+        publish.trigger(story);
     };
 
     if (publish.isMutating) return <PublishLoading />;

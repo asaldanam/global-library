@@ -1,6 +1,7 @@
 import { z } from 'zod';
 
 export const categories = [
+    { value: 'fiction', label: 'Fiction' },
     { value: 'fantasy', label: 'Fantasy' },
     { value: 'scifi', label: 'Science Fiction' },
     { value: 'mystery', label: 'Mystery' },

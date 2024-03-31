@@ -8,7 +8,7 @@ export type Mwta = z.infer<typeof Meta>;
 export const Meta = z.object({
     author: z.string().optional(),
     createdAt: z.string(),
-    category: Categories,
+    category: Categories.optional(),
     lang: Languages
 });
 

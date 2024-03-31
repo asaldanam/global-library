@@ -2,10 +2,10 @@ import { useFormContext } from 'react-hook-form';
 
 import { FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { languages } from '@/core/story/domain';
+import { Story, languages } from '@/core/story/domain';
 
 const LanguageField = (props: { className?: string }) => {
-    const form = useFormContext();
+    const form = useFormContext<Story>();
 
     return (
         <FormField
