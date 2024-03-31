@@ -1,4 +1,4 @@
-import { Block, categories, createStory } from '@/core/story/domain';
+import { Block, Story } from '@/core/story/domain';
 import blocks_id from '@/mocks/notion/blocks_id.json';
 
 const blocks = blocks_id.results
@@ -10,16 +10,16 @@ const blocks = blocks_id.results
     }))
     .filter((b) => b.data.text);
 
-export const createStoryExample = () =>
-    createStory({
+export const createStoryExample = () => {
+    const story: Story = {
         cover: '',
         id: crypto.randomUUID(),
         title: 'Razones',
         meta: {
             author: '',
-            createdAt: new Date().toISOString(),
-            category: categories[0].value,
-            lang: 'es'
+            createdAt: '',
+            category: '',
+            language: ''
         },
         content: [
             {
@@ -31,4 +31,7 @@ export const createStoryExample = () =>
                 ]
             }
         ]
-    });
+    };
+
+    return story;
+};

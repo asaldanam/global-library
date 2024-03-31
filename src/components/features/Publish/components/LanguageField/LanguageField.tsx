@@ -10,7 +10,7 @@ const LanguageField = (props: { className?: string }) => {
     return (
         <FormField
             control={form.control}
-            name="meta.lang"
+            name="meta.language"
             render={({ field }) => (
                 <FormItem className={props.className}>
                     <FormLabel>Language</FormLabel>

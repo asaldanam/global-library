@@ -16,8 +16,12 @@ export class PublishService {
         private readonly imageProcessor: BlobImageProcessor
     ) {}
 
-    async publish(data: any): Promise<Publication> {
-        const story = createStory(data);
+    async publish(payload: Story): Promise<Publication> {
+        const story = createStory({
+            ...payload,
+            // overrides client createdAt with server time
+            meta: { ...payload.meta, createdAt: new Date().toISOString() }
+        });
 
         await this.processCoverImage(story);
         const files = await this.renderer.toFiles(story);

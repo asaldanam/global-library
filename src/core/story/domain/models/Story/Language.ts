@@ -12,8 +12,11 @@ export const languages = [
     { label: 'Chinese', value: 'zh' }
 ] as const;
 
-export const Languages = z.enum(languages.map(({ value }) => value) as [(typeof languages)[number]['value']]);
+const isValidLanguage = (value: any) => languages.map(({ value }) => value).includes(value as any);
 
-export type Languages = z.infer<typeof Languages>;
+export const Language = z
+    .string()
+    .refine((value) => !!value, { message: 'Language is required' })
+    .refine(isValidLanguage, { message: 'Not a valid language' });
 
-export const createLanguages = (languages: Languages) => Languages.parse(languages);
+export type Language = z.infer<typeof Language>;

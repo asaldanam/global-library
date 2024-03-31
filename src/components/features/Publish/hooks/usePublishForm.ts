@@ -6,18 +6,19 @@ import { Story, createStory } from '@/core/story/domain';
 import { mutator } from '@/lib/mutator';
 import { PublishProps } from '../Publish';
 
-export const usePublishForm = (props: PublishProps) => {
+export const usePublishForm = ({ story }: PublishProps) => {
     const publish = useSWRMutation('/api/publish', mutator({ method: 'POST' }));
 
-    const form = useForm({
+    const form = useForm<Partial<Story>>({
         resolver: zodResolver(Story),
         defaultValues: {
-            ...props.story,
+            ...story,
             meta: {
-                ...props.story.meta,
-                author: '',
-                category: '',
-                lang: navigator.language.split('-')[0]
+                ...story.meta,
+                author: story.meta.author || '',
+                category: story.meta.category || '',
+                language: story.meta.language || getBrowserLanguage() || 'en',
+                createdAt: story.meta.createdAt || new Date().toISOString()
             }
         }
     });
@@ -29,3 +30,5 @@ export const usePublishForm = (props: PublishProps) => {
 
     return { form, publish, onSubmit };
 };
+
+const getBrowserLanguage = () => navigator.language.split('-')[0];

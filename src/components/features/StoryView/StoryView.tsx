@@ -15,7 +15,7 @@ const StoryView = ({ story }: StoryViewProps) => {
     const firstPage = story.content[0].pages[0];
     const description = firstPage.blocks.find((b) => b.type === 'paragraph')?.data?.text?.slice(0, 150) || '';
     const readTime = calcReadTime(story);
-    const language = story.meta.lang || 'en';
+    const language = story.meta.language || 'en';
     const author = story.meta.author;
     const createdAt = new Date(story.meta.createdAt).toLocaleDateString(language, {
         month: 'long',
