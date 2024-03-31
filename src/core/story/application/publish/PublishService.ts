@@ -35,10 +35,10 @@ export class PublishService {
         const [file] = await this.imageProcessor.processImages([cover]);
         if (!file) return;
 
-        const { path, protocol } = await this.storage.upload([file]);
+        const { path: cid } = await this.storage.upload([file]);
 
-        const baseUrl = gateways[0] || protocol;
-        const url = `${baseUrl}/${path}/${file.name}`;
+        const gateway = gateways[0];
+        const url = `https://${cid}.${gateway}/${file.name}`;
         story.cover = url;
     }
 }

@@ -5,7 +5,7 @@ import { ReactHtmlRenderer } from '@/core/story/infrastructure/ReactHtmlRenderer
 
 export const publisher = new PublishService(
     {
-        gateways: ['https://nftstorage.link/ipfs']
+        gateways: ['ipfs.nftstorage.link']
     },
     // Renderer
     new ReactHtmlRenderer(Reader),

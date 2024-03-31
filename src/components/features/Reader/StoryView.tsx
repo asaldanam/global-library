@@ -40,6 +40,7 @@ const StoryView = ({ story }: StoryViewProps) => {
 
                 {/* Open graph */}
                 <meta property="og:site_name" content="Published with fabula.pub" />
+                <meta property="og:url" content="https://fabula.pub" />
                 <meta property="og:title" content={story.title} />
                 <meta property="og:description" content={`${description} ${description.length > 150 ? '[...]' : ''}`} />
                 <meta property="og:type" content="article" />

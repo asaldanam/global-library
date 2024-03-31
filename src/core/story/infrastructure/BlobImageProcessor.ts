@@ -14,7 +14,8 @@ export class BlobImageProcessor implements ImageProcessor {
     private async toFile(image: ImageSource): Promise<File> {
         const { source: base64, filename } = image;
 
-        const data = base64.replace(/^data:image\/\w+;base64,/, '');
+        // remove base64 image data jpeg
+        const data = base64.split(',')[1];
         const type = base64.split(';')[0].split(':')[1];
         const ext = type.split('/')[1];
 

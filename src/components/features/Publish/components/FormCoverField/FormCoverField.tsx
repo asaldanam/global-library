@@ -37,15 +37,17 @@ const FormCoverField = () => {
                             </FormControl>
 
                             <div>
-                                <AspectRatio ratio={120 / 63}>
-                                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                                    <img
-                                        src={value}
-                                        className="absolute rounded-md w-full h-full object-cover object-center"
-                                        alt="cover"
-                                        onError={(e) => e.currentTarget.setAttribute('style', 'display: none')}
-                                    />
-                                </AspectRatio>
+                                {value && (
+                                    <AspectRatio ratio={120 / 63}>
+                                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                                        <img
+                                            src={value}
+                                            className="absolute rounded-md w-full h-full object-cover object-center"
+                                            alt="cover"
+                                            onError={(e) => e.currentTarget.setAttribute('style', 'display: none')}
+                                        />
+                                    </AspectRatio>
+                                )}
                             </div>
 
                             <FormDescription>An awesome image your story more attractive</FormDescription>

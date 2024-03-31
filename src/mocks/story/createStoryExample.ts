@@ -13,8 +13,7 @@ const blocks = blocks_id.results
 
 export const createStoryExample = () =>
     createStory({
-        cover: 'https://bafybeia6agetfc3igjgf4aqaspifsiaoinexknlucafc7m7hgob4go5t2q.ipfs.nftstorage.link/assets/cover.jpeg',
-        // cover: 'asdf',
+        cover: '',
         id: crypto.randomUUID(),
         title: 'Razones',
         meta: {
