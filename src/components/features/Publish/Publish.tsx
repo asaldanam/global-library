@@ -1,10 +1,11 @@
 'use client';
 
+import { PropsWithChildren } from 'react';
+
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 import { Form } from '@/components/ui/form';
 import { Publication, Story } from '@/core/story/domain';
-import { PropsWithChildren } from 'react';
 import AuthorField from './components/AuthorField';
 import CategoryField from './components/CategoryField';
 import CoverField from './components/CoverField';
