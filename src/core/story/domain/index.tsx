@@ -8,4 +8,5 @@ export * from './models/Story/Chapter';
 export * from './models/Story/Languages';
 export * from './models/Story/Page';
 export * from './models/Story/Story';
+export * from './models/Story/Meta';
 export * from './models/Publication/Publication';

@@ -16,6 +16,7 @@ const StoryView = ({ story }: StoryViewProps) => {
     const description = firstPage.blocks.find((b) => b.type === 'paragraph')?.data?.text?.slice(0, 150) || '';
     const readTime = calcReadTime(story);
     const language = story.meta.lang || 'en';
+    const author = story.meta.author;
     const createdAt = new Date(story.meta.createdAt).toLocaleDateString(language, {
         month: 'long',
         day: 'numeric',
@@ -35,7 +36,7 @@ const StoryView = ({ story }: StoryViewProps) => {
                 {/* Content */}
                 <title>{story.title}</title>
                 <meta name="description" content={description} />
-                <meta name="author" content={story.meta.author.name} />
+                {author && <meta name="author" content={author} />}
                 <meta name="keywords" content={story.title} />
 
                 {/* Open graph */}
@@ -63,9 +64,11 @@ const StoryView = ({ story }: StoryViewProps) => {
 
                     <div className="StoryView-header-content">
                         <h1>{story.title}</h1>
-                        <p className="StoryView-author">
-                            by <em>{story.meta.author.name}</em>
-                        </p>
+                        {author && (
+                            <p className="StoryView-author">
+                                by <em>{story.meta.author}</em>
+                            </p>
+                        )}
                     </div>
                 </header>
                 <main className="StoryView">
@@ -80,9 +83,11 @@ const StoryView = ({ story }: StoryViewProps) => {
                         <PageView page={firstPage} />
                     </section>
                     <footer className="StoryView-footer StoryView-container">
-                        <p>
-                            © {new Date(story.meta.createdAt).getFullYear()} {story.meta.author.name}
-                        </p>
+                        {author && (
+                            <p>
+                                © {new Date(story.meta.createdAt).getFullYear()} {author}
+                            </p>
+                        )}
                         <p className="StoryView-footer-generated-with">
                             <small>
                                 <em>

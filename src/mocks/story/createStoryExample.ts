@@ -16,11 +16,7 @@ export const createStoryExample = () =>
         id: crypto.randomUUID(),
         title: 'Razones',
         meta: {
-            author: {
-                avatar: 'https://source.unsplash.com/random/100x100',
-                name: 'Derlan',
-                email: ''
-            },
+            author: '',
             createdAt: new Date().toISOString(),
             category: 'adventure',
             lang: 'es'

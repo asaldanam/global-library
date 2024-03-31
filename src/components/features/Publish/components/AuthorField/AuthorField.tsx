@@ -7,7 +7,7 @@ const AuthorField = () => {
     return (
         <FormField
             control={form.control}
-            name="meta.author.name"
+            name="meta.author"
             render={({ field }) => (
                 <FormItem>
                     <FormLabel>Author</FormLabel>
