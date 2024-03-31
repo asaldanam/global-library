@@ -14,13 +14,13 @@ const PublishResult = (props: PublishResultProps) => {
             </div>
             <pre className="w-full overflow-hidden text-ellipsis text-xs bg-slate-50 p-3 text-xs">
                 <div>Published!</div>
-                {/* <a
+                <a
                     className="font-medium text-blue-600 dark:text-blue-500 hover:underline mt-1 block"
                     href={`https://nftstorage.link/ipfs/${publication.path}`}
                     target="_blank"
                 >
-                    ipfs://{publication.path}
-                </a> */}
+                    {publication.path}
+                </a>
             </pre>
         </>
     );

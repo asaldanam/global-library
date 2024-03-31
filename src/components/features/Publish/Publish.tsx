@@ -19,36 +19,43 @@ export type PublishProps = {
     story: Story;
 };
 
-const Publish = (props: PropsWithChildren<PublishProps>) => {
+const Publish = (props: PublishProps) => {
     const { form, publish, onSubmit } = usePublishForm(props);
 
     if (publish.isMutating) return <PublishLoading />;
     if (publish.data) return <PublishResult publication={createPublication(publish.data)} />;
 
     return (
+        <Form {...form}>
+            <PublishHeader />
+
+            <form className="mt-1 flex flex-col gap-5" onSubmit={onSubmit}>
+                <CoverField />
+                <AuthorField />
+                <div className="flex gap-3">
+                    <CategoryField className="w-full" />
+                    <LanguageField className="w-full" />
+                </div>
+
+                <footer className="mt-3 w-full flex justify-end gap-5">
+                    <Button type="submit">Publish</Button>
+                </footer>
+            </form>
+        </Form>
+    );
+};
+
+// eslint-disable-next-line import/no-anonymous-default-export, react/display-name
+export default (props: PropsWithChildren<PublishProps>) => {
+    if (!props.story || !props.children) return null;
+
+    return (
         <Dialog>
             <DialogTrigger asChild>{props.children}</DialogTrigger>
 
             <DialogContent className="max-w-lg">
-                <Form {...form}>
-                    <PublishHeader />
-
-                    <form className="mt-1 flex flex-col gap-5" onSubmit={onSubmit}>
-                        <CoverField />
-                        <AuthorField />
-                        <div className="flex gap-3">
-                            <CategoryField className="w-full" />
-                            <LanguageField className="w-full" />
-                        </div>
-
-                        <footer className="mt-3 w-full flex justify-end gap-5">
-                            <Button type="submit">Publish</Button>
-                        </footer>
-                    </form>
-                </Form>
+                <Publish {...props} />
             </DialogContent>
         </Dialog>
     );
 };
-
-export default Publish;
