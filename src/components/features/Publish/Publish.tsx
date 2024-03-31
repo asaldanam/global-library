@@ -22,6 +22,7 @@ import LanguageField from './components/LanguageField';
 import PublishLoading from './components/PublishLoading';
 import PublishResult from './components/PublishResult';
 import { Publication, Story } from '@/core/story/domain';
+import CategoryField from './components/CategoryField';
 
 type PublishProps = {
     story: Story;
@@ -48,7 +49,7 @@ const Publish = (props: PropsWithChildren<PublishProps>) => {
                 <CoverField />
                 <AuthorField />
                 <div className="flex gap-3">
-                    <LanguageField className="w-full" />
+                    <CategoryField className="w-full" />
                     <LanguageField className="w-full" />
                 </div>
 

@@ -28,9 +28,6 @@ const LanguageField = (props: { className?: string }) => {
                             ))}
                         </SelectContent>
                     </Select>
-                    {/* <FormDescription>
-                        This will help readers find your story in their preferred language.
-                    </FormDescription> */}
                     <FormMessage />
                 </FormItem>
             )}

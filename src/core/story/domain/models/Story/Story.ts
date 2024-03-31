@@ -1,6 +1,7 @@
 import { z } from 'zod';
 import { Chapter } from './Chapter';
 import { Languages } from './Languages';
+import { Categories } from './Categories';
 
 export type Story = z.infer<typeof Story>;
 
@@ -13,7 +14,7 @@ export const Story = z.object({
             avatar: z.string()
         }),
         createdAt: z.string(),
-        version: z.number(),
+        category: Categories,
         lang: Languages
     }),
     content: z.array(Chapter),

@@ -22,7 +22,7 @@ export const createStoryExample = () =>
                 email: ''
             },
             createdAt: new Date().toISOString(),
-            version: 1,
+            category: 'adventure',
             lang: 'es'
         },
         content: [
