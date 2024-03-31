@@ -5,7 +5,7 @@ import { PropsWithChildren } from 'react';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 import { Form } from '@/components/ui/form';
-import { Publication, Story } from '@/core/story/domain';
+import { Publication, Story, createPublication } from '@/core/story/domain';
 import AuthorField from './components/AuthorField';
 import CategoryField from './components/CategoryField';
 import CoverField from './components/CoverField';
@@ -23,7 +23,7 @@ const Publish = (props: PropsWithChildren<PublishProps>) => {
     const { form, publish, onSubmit } = usePublishForm(props);
 
     if (publish.isMutating) return <PublishLoading />;
-    if (publish.data) return <PublishResult publication={publish.data as Publication} />;
+    if (publish.data) return <PublishResult publication={createPublication(publish.data)} />;
 
     return (
         <Dialog>
