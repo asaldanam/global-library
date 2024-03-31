@@ -38,7 +38,7 @@ const Publish = (props: PropsWithChildren<PublishProps>) => {
     };
 
     if (publish.isMutating) return <PublishLoading />;
-    if (publish.data || true) return <PublishResult publication={publish.data as Publication} />;
+    if (publish.data) return <PublishResult publication={publish.data as Publication} />;
 
     return (
         <Form {...form}>
