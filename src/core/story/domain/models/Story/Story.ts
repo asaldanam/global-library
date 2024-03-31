@@ -6,10 +6,9 @@ export type Story = z.infer<typeof Story>;
 
 export const Story = z.object({
     id: z.string().uuid(),
-    meta: Meta,
-    content: z.array(Chapter),
     title: z.string(),
-    cover: z.string()
+    meta: Meta,
+    content: z.array(Chapter)
 });
 
 export const createStory = (story: Story) => Story.parse(story);

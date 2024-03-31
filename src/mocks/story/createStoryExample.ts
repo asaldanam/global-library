@@ -12,14 +12,14 @@ const blocks = blocks_id.results
 
 export const createStoryExample = () => {
     const story: Story = {
-        cover: '',
         id: crypto.randomUUID(),
         title: 'Razones',
         meta: {
             author: '',
             createdAt: '',
             category: '',
-            language: ''
+            language: '',
+            cover: ''
         },
         content: [
             {

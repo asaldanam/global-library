@@ -45,7 +45,7 @@ const StoryView = ({ story }: StoryViewProps) => {
                 <meta property="og:title" content={story.title} />
                 <meta property="og:description" content={`${description} ${description.length > 150 ? '[...]' : ''}`} />
                 <meta property="og:type" content="article" />
-                <meta property="og:image" itemProp="image" content={story.cover} />
+                <meta property="og:image" itemProp="image" content={story.meta.cover} />
                 <meta property="og:updated_time" content={story.meta.createdAt} />
 
                 {/* TODO Favicon */}
@@ -60,7 +60,7 @@ const StoryView = ({ story }: StoryViewProps) => {
             <body>
                 <header className="StoryView-header">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img className="StoryView-cover" src={story.cover} alt={story.title} />
+                    <img className="StoryView-cover" src={story.meta.cover} alt={story.title} />
 
                     <div className="StoryView-header-content">
                         <h1>{story.title}</h1>

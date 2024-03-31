@@ -34,7 +34,7 @@ export class PublishService {
 
     private async processCoverImage(story: Story): Promise<void> {
         const { gateways } = this.config;
-        const cover = { source: story.cover, filename: 'cover' };
+        const cover = { source: story.meta.cover, filename: 'cover' };
 
         const [file] = await this.imageProcessor.processImages([cover]);
         if (!file) return;
@@ -43,6 +43,6 @@ export class PublishService {
 
         const gateway = gateways[0];
         const url = `https://${cid}.${gateway}/${file.name}`;
-        story.cover = url;
+        story.meta.cover = url;
     }
 }

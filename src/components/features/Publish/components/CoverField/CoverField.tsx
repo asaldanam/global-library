@@ -12,7 +12,7 @@ const CoverField = () => {
         <>
             <FormField
                 control={form.control}
-                name="cover"
+                name="meta.cover"
                 render={({ field: { onChange, value, ...field } }) => {
                     return (
                         <FormItem>
