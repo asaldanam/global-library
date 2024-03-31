@@ -1,6 +1,6 @@
 'use server';
 
-import Reader from '@/components/features/Reader';
+import Reader from '@/components/features/StoryView';
 import { createStoryExample } from '@/core/story';
 import { ReactHtmlRenderer } from '@/core/story/infrastructure/ReactHtmlRenderer';
 

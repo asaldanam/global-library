@@ -1,4 +1,4 @@
-import Reader from '@/components/features/Reader';
+import Reader from '@/components/features/StoryView';
 import { IpfsFileStorage, PublishService } from '@/core/story';
 import { BlobImageProcessor } from '@/core/story/infrastructure/BlobImageProcessor';
 import { ReactHtmlRenderer } from '@/core/story/infrastructure/ReactHtmlRenderer';
