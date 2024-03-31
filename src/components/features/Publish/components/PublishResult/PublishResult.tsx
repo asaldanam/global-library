@@ -1,4 +1,4 @@
-import { Publication } from '@/core/story';
+import { Publication } from '@/core/story/domain';
 
 type PublishResultProps = {
     publication: Publication;

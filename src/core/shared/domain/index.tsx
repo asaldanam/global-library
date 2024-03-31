@@ -1,1 +1,1 @@
-export * from '../../story/infrastructure/BlobImageProcessor';
+export * from '../../story/infrastructure/implementations/BlobImageProcessor';

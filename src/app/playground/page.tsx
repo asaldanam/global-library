@@ -1,8 +1,8 @@
 'use server';
 
 import Reader from '@/components/features/StoryView';
-import { createStoryExample } from '@/core/story';
-import { ReactHtmlRenderer } from '@/core/story/infrastructure/ReactHtmlRenderer';
+import { ReactHtmlRenderer } from '@/core/story/infrastructure';
+import { createStoryExample } from '@/mocks/story/createStoryExample';
 
 const renderer = new ReactHtmlRenderer(Reader);
 

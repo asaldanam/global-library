@@ -2,11 +2,11 @@
 import { useEffect, useState } from 'react';
 
 import Header from '@/components/sdk/Header';
-import { Story, createStoryExample } from '@/core/story';
+import { Story } from '@/core/story/domain';
+import { createStoryExample } from '@/mocks/story/createStoryExample';
 import S from './Editor.module.css';
 import PublishAction from './components/PublishAction';
 import SaveAction from './components/SaveAction';
-import { Button } from '@/components/ui/button';
 
 const Editor = () => {
     const [story, setStory] = useState<Story>();

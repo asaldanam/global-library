@@ -2,7 +2,7 @@ import { Publication, createPublication } from '../../domain/models/Publication/
 import { Story, createStory } from '../../domain/models/Story/Story';
 import { FileStorage } from '../../domain/interfaces/FileStorage';
 import { Renderer } from '../../domain/interfaces/Renderer';
-import { BlobImageProcessor } from '../../infrastructure/BlobImageProcessor';
+import { BlobImageProcessor } from '../../infrastructure/implementations/BlobImageProcessor';
 
 type PublishServiceConfig = {
     gateways: string[];

@@ -1,5 +1,5 @@
 import { File } from '@web-std/file';
-import { ImageProcessor, ImageSource } from '../domain/interfaces/ImageProcessor';
+import { ImageProcessor, ImageSource } from '../../domain/interfaces/ImageProcessor';
 
 export class BlobImageProcessor implements ImageProcessor {
     constructor() {}

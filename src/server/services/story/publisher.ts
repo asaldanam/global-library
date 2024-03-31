@@ -1,7 +1,6 @@
 import Reader from '@/components/features/StoryView';
-import { IpfsFileStorage, PublishService } from '@/core/story';
-import { BlobImageProcessor } from '@/core/story/infrastructure/BlobImageProcessor';
-import { ReactHtmlRenderer } from '@/core/story/infrastructure/ReactHtmlRenderer';
+import { PublishService } from '@/core/story/application';
+import { BlobImageProcessor, IpfsFileStorage, ReactHtmlRenderer } from '@/core/story/infrastructure';
 
 export const publisher = new PublishService(
     {

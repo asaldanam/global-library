@@ -2,7 +2,7 @@ import { FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessa
 import { Input } from '@/components/ui/input';
 import { useFormContext } from 'react-hook-form';
 
-const FormAuthorField = () => {
+const AuthorField = () => {
     const form = useFormContext();
     return (
         <FormField
@@ -10,7 +10,7 @@ const FormAuthorField = () => {
             name="meta.author.name"
             render={({ field }) => (
                 <FormItem>
-                    <FormLabel>Name</FormLabel>
+                    <FormLabel>Author</FormLabel>
                     <FormControl>
                         <Input placeholder="Your name" {...field} />
                     </FormControl>
@@ -22,4 +22,4 @@ const FormAuthorField = () => {
     );
 };
 
-export default FormAuthorField;
+export default AuthorField;

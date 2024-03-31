@@ -1,11 +1,11 @@
+import { useFormContext } from 'react-hook-form';
+
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 import { FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
-import { Story } from '@/core/story';
-import Image from 'next/image';
-import { useFormContext } from 'react-hook-form';
+import { Story } from '@/core/story/domain';
 
-const FormCoverField = () => {
+const CoverField = () => {
     const form = useFormContext<Story>();
 
     return (
@@ -60,4 +60,4 @@ const FormCoverField = () => {
     );
 };
 
-export default FormCoverField;
+export default CoverField;

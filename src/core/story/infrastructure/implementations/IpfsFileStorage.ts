@@ -1,5 +1,5 @@
 import { NFTStorage } from 'nft.storage';
-import { FileStorage } from '../domain/interfaces/FileStorage';
+import { FileStorage } from '../../domain/interfaces/FileStorage';
 
 export class IpfsFileStorage implements FileStorage {
     async upload(files: File[]) {

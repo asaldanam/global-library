@@ -1,6 +1,6 @@
 import Publish from '@/components/features/Publish';
 import { Button } from '@/components/ui/button';
-import { Story } from '@/core/story';
+import { Story } from '@/core/story/domain';
 
 type PublishActionProps = {
     story?: Story;

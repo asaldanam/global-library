@@ -1,4 +1,4 @@
-import { Story } from '@/core/story';
+import { Story } from '@/core/story/domain';
 
 export function calcReadTime(story: Story) {
     const totalWords = story.content

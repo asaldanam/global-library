@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 const SaveAction = () => {
     return (
         <>
-            <Button variant="outline">Save</Button>
+            <Button variant="ghost">Save</Button>
         </>
     );
 };

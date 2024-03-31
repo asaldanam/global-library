@@ -1,4 +1,4 @@
-import { Page } from '@/core/story';
+import { Page } from '@/core/story/domain';
 import { styled } from '@/styles/styled';
 
 type PageViewProps = {

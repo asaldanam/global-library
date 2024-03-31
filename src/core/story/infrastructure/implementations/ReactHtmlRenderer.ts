@@ -1,7 +1,7 @@
 import { File } from '@web-std/file';
 
-import { Story } from '../domain/models/Story/Story';
-import { Renderer } from '../domain/interfaces/Renderer';
+import { Story } from '../../domain/models/Story/Story';
+import { Renderer } from '../../domain/interfaces/Renderer';
 
 export class ReactHtmlRenderer implements Renderer {
     constructor(

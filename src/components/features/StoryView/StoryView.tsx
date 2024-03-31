@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-head-element */
 /* eslint-disable @next/next/no-page-custom-font */
-import { Story, languages } from '@/core/story';
+import { Story, languages } from '@/core/story/domain';
 import PageView from './components/PageView';
 import { theme } from './styles/theme.css';
 import { styled } from '@/styles/styled';

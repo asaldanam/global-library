@@ -10,18 +10,18 @@ import {
     DialogTrigger
 } from '@/components/ui/dialog';
 import { Form } from '@/components/ui/form';
-import { Publication, Story } from '@/core/story';
 import { mutator } from '@/lib/mutator';
 import { InfoCircledIcon } from '@radix-ui/react-icons';
 import Link from 'next/link';
 import { PropsWithChildren } from 'react';
 import { useForm } from 'react-hook-form';
 import useSWRMutation from 'swr/mutation';
-import FormAuthorField from './components/FormAuthorField';
-import FormCoverField from './components/FormCoverField';
-import FormLanguageField from './components/FormLanguageField';
+import AuthorField from './components/AuthorField';
+import CoverField from './components/CoverField';
+import LanguageField from './components/LanguageField';
 import PublishLoading from './components/PublishLoading';
 import PublishResult from './components/PublishResult';
+import { Publication, Story } from '@/core/story/domain';
 
 type PublishProps = {
     story: Story;
@@ -45,11 +45,11 @@ const Publish = (props: PropsWithChildren<PublishProps>) => {
             <PublishDialogHeader />
 
             <form className="mt-1 flex flex-col gap-5" onSubmit={form.handleSubmit(onSubmit)}>
-                <FormCoverField />
-                <FormAuthorField />
+                <CoverField />
+                <AuthorField />
                 <div className="flex gap-3">
-                    <FormLanguageField className="w-full" />
-                    <FormLanguageField className="w-full" />
+                    <LanguageField className="w-full" />
+                    <LanguageField className="w-full" />
                 </div>
 
                 <footer className="mt-3 w-full flex justify-end gap-5">
