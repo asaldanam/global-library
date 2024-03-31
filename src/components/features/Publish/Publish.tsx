@@ -38,11 +38,12 @@ const Publish = (props: PropsWithChildren<PublishProps>) => {
     };
 
     if (publish.isMutating) return <PublishLoading />;
-    if (publish.data) return <PublishResult publication={publish.data as Publication} />;
+    if (publish.data || true) return <PublishResult publication={publish.data as Publication} />;
 
     return (
         <Form {...form}>
             <PublishDialogHeader />
+
             <form className="mt-1 flex flex-col gap-5" onSubmit={form.handleSubmit(onSubmit)}>
                 <FormCoverField />
                 <FormAuthorField />
@@ -83,7 +84,7 @@ const PublishDialog = (props: PropsWithChildren<Partial<PublishProps>>) => {
     return (
         <Dialog>
             <DialogTrigger asChild>{children}</DialogTrigger>
-            <DialogContent className="max-w-md">
+            <DialogContent className="max-w-lg">
                 <Publish story={story} />
             </DialogContent>
         </Dialog>
