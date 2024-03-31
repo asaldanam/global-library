@@ -1,14 +1,14 @@
 import { z } from 'zod';
 import { Chapter } from './Chapter';
 import { Languages } from './Languages';
-import { Categories } from './Categories';
+import { Category } from './Categories';
 
 export type Mwta = z.infer<typeof Meta>;
 
 export const Meta = z.object({
     author: z.string().optional(),
     createdAt: z.string(),
-    category: Categories.optional(),
+    category: Category,
     lang: Languages
 });
 

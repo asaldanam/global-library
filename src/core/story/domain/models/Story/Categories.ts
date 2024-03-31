@@ -30,8 +30,11 @@ export const categories = [
     { value: 'wuxia', label: 'Wuxia' }
 ] as const;
 
-export const Categories = z.enum(categories.map(({ value }) => value) as [(typeof categories)[number]['value']]);
+const isValidCategory = (value: any) => categories.map(({ value }) => value).includes(value as any);
 
-export type Categories = z.infer<typeof Categories>;
+export const Category = z
+    .string()
+    .refine((value) => !!value, { message: 'Category is required' })
+    .refine(isValidCategory, { message: 'Not a valid category' });
 
-export const createCategories = (languages: Categories) => Categories.parse(languages);
+export type Category = z.infer<typeof Category>;
