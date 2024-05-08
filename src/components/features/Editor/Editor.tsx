@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useLayoutEffect, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 
 import Header from '@/components/sdk/Header';
 import { Story } from '@/core/story/domain';
@@ -9,37 +9,79 @@ import PublishAction from './components/PublishAction';
 import SaveAction from './components/SaveAction';
 
 import EditorJS from '@editorjs/editorjs';
-import configuration from './editorjsConfig';
+import SimpleImage from '@editorjs/simple-image';
+// import configuration from './editorjsConfig';
+import { Button } from '@/components/ui/button';
 
 const Editor = () => {
-    useLayoutEffect(() => {
-        // const editor = new EditorJS(configuration());
-        console.log(document.getElementById('editorjs'));
-        const editor = new EditorJS({
-            /**
-             * Id of Element that should contain the Editor
-             */
-            holder: 'editorjs',
+    const editorContainer = useRef(null);
+    const [editor, setEditor] = useState<EditorJS | null>(null);
 
-            /**
-             * Available Tools list.
-             * Pass Tool's class or Settings object for each Tool you want to use
-             */
-            tools: {
-                // ...
-                // header: {
-                // },
-                // ...
-            },
+    useEffect(() => {
+        if (editorContainer.current) {
+            const editorInstance = new EditorJS({
+                /**
+                 * Id of Element that should contain the Editor
+                 */
+                holder: editorContainer.current, //es como un document.getElementById('editorjs') pero con hooks
 
-            onReady: () => {
-                console.log('Editor.js is ready to work!');
+                /**
+                 * Available Tools list.
+                 * Pass Tool's class or Settings object for each Tool you want to use
+                 */
+                tools: {
+                    image: SimpleImage,
+                    // image: {
+                    //     class: SimpleImage,
+                    //     config: {
+                    //         // Configuración adicional si es necesaria
+                    //     }
+                    // },
+                    // ...
+                },
+
+                onReady: () => {
+
+                },
+                onChange: (...args) => {
+                    console.log('Editor.js is changed!', args);
+                }
+            });
+
+            setEditor(editorInstance);
+            console.log('Editor instance:', editorInstance);
+        };
+
+        return () => {
+            if (editor) {
+                editor.destroy();
             }
-        });
+        };
     }, []);
 
+    const save = async () => {
+        const data = await editor?.save?.();
 
+        // guardar aquí
+        console.log(data?.blocks);
 
+        localStorage.setItem('editorData', JSON.stringify(data?.blocks));
+    }
+
+    // recupera los datos del editor a partir de un json
+    const load = async () => {
+        const blocksStr = localStorage.getItem('editorData');
+        const blocks = JSON.parse(blocksStr || '[]');
+        console.log('load', blocks, editor)
+        await editor?.render?.({ blocks });
+    }
+
+    useLayoutEffect(() => {
+        if (!editor) return;
+        editor.isReady.then(() => {
+            load();
+        });
+    }, [editor]);
 
     const [story, setStory] = useState<Story>();
 
@@ -48,15 +90,19 @@ const Editor = () => {
         setStory(createStoryExample());
     }, []);
 
+    console.log(editor);
+
     return (
         <main className={S.Editor}>
             <Header>
                 <SaveAction />
                 <PublishAction story={story} />
+                <Button onClick={save}>Save</Button>
             </Header>
 
             <div>
-                <div id="editorjs">EDITOR</div>
+                {/* <div id="editorjs">EDITOR</div> */}
+                <div ref={editorContainer} />
             </div>
 
             <div className="container flex max-w-screen-2xl items-center pt-6">
