@@ -8,14 +8,21 @@ import S from './Editor.module.css';
 import PublishAction from './components/PublishAction';
 import SaveAction from './components/SaveAction';
 
-import EditorJS from '@editorjs/editorjs';
+import EditorJS, { OutputData } from '@editorjs/editorjs';
 import SimpleImage from '@editorjs/simple-image';
 // import configuration from './editorjsConfig';
 import { Button } from '@/components/ui/button';
+import SideBar from '@/components/sdk/SideBar';
+import Link from "next/link"
+import { Book, Package2 } from 'lucide-react';
+
+export type Stories = { [uuid: string]: OutputData }
 
 const Editor = () => {
     const editorContainer = useRef(null);
-    const [editor, setEditor] = useState<EditorJS | null>(null);
+    const [editor, setEditor] = useState<EditorJS>();
+    // const [stories, setStories] = useState();
+    const [stories, setStories] = useState<Stories>({});
 
     useEffect(() => {
         if (editorContainer.current) {
@@ -40,16 +47,15 @@ const Editor = () => {
                     // ...
                 },
 
-                onReady: () => {
+                // onReady: () => {
 
-                },
-                onChange: (...args) => {
-                    console.log('Editor.js is changed!', args);
-                }
+                // },
+                // onChange: (...args) => {
+                //     console.log('Editor.js is changed!', args);
+                // }
             });
 
             setEditor(editorInstance);
-            console.log('Editor instance:', editorInstance);
         };
 
         return () => {
@@ -59,57 +65,89 @@ const Editor = () => {
         };
     }, []);
 
-    const save = async () => {
+    const saveStory = async () => {
         const data = await editor?.save?.();
+        const storyId = crypto.randomUUID();
 
-        // guardar aquí
-        console.log(data?.blocks);
+        const stories = JSON.parse(localStorage.getItem('stories') || '{}');
+        const updatedStories = { ...stories, [storyId]: { blocks: data?.blocks } };
 
-        localStorage.setItem('editorData', JSON.stringify(data?.blocks));
-    }
+        localStorage.setItem('stories', JSON.stringify(updatedStories));
+        setStories(updatedStories);
+    };
 
     // recupera los datos del editor a partir de un json
-    const load = async () => {
-        const blocksStr = localStorage.getItem('editorData');
+    const loadStory = async (storyId: string) => {
+        const blocksStr = localStorage.getItem(`editorData_${storyId}`);
         const blocks = JSON.parse(blocksStr || '[]');
-        console.log('load', blocks, editor)
         await editor?.render?.({ blocks });
-    }
+    };
+
+    const getFirstParagraphText = (blocks: any[]) => {
+        const firstParagraph = blocks.find(block => block.type === 'paragraph');
+        return firstParagraph?.data?.text || 'Untitled Story';
+    };
 
     useLayoutEffect(() => {
         if (!editor) return;
         editor.isReady.then(() => {
-            load();
+            const storyId = Object.keys(stories)[0];
+            loadStory(storyId);
+
+            const storaged = JSON.parse(localStorage.getItem('stories') || '{}');
+            setStories(storaged);
         });
     }, [editor]);
 
     const [story, setStory] = useState<Story>();
 
     // Provisional example story
-    useEffect(() => {
-        setStory(createStoryExample());
-    }, []);
+    // useEffect(() => {
+    //     setStory(createStoryExample());
+    // }, []);
 
-    console.log(editor);
+    console.log(stories);
+
 
     return (
         <main className={S.Editor}>
             <Header>
                 <SaveAction />
                 <PublishAction story={story} />
-                <Button onClick={save}>Save</Button>
+                <Button onClick={saveStory}>Save</Button>
             </Header>
+
+            <SideBar title={
+                <Link href="/" className="flex items-center gap-2 font-semibold">
+                    <Package2 className="h-6 w-6" />
+                    <span className="">Nueva historia</span>
+                </Link>
+            }>
+                {Object.entries(stories).map(([storyId, story]) => {
+                    return (
+                        <Link
+                            key={storyId}
+                            href={`#/${storyId}`}
+                            className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
+                        >
+                            <Book className="h-4 w-4" />
+                            {(story.blocks || [])[0]?.data?.text || 'Untitled Story'}
+                        </Link>
+                    )
+                })}
+
+            </SideBar>
 
             <div>
                 {/* <div id="editorjs">EDITOR</div> */}
                 <div ref={editorContainer} />
             </div>
 
-            <div className="container flex max-w-screen-2xl items-center pt-6">
+            {/* <div className="container flex max-w-screen-2xl items-center pt-6">
                 <pre className="overflow-hidden text-ellipsis text-xs bg-muted p-3 rounded-lg">
                     {JSON.stringify(story, null, 1)}
                 </pre>
-            </div>
+            </div> */}
         </main>
     );
 };

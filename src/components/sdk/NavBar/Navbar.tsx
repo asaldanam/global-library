@@ -3,7 +3,7 @@
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 
-const Header = () => {
+const Navbar = () => {
     return (
         <nav className={cn('flex items-center space-x-4 lg:space-x-6 mx-6')}>
             <Link href="/examples/dashboard" className="text-sm font-medium transition-colors hover:text-primary">
@@ -31,4 +31,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Navbar;
